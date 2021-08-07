@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/mv_chatbot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="75dp"
+        android:text="ChatBot"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:drawableLeft="@drawable/chat_image"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/nanum" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layerType="software"
+        android:src="@drawable/dashline" />
+
+    <TextView
+        android:id="@+id/mv_website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="75dp"
+        android:text="PORT-MIS"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:drawableLeft="@drawable/home_image"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/nanum"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layerType="software"
+        android:src="@drawable/dashline" />
+
+    <TextView
+        android:id="@+id/call_portmis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:padding="75dp"
+        android:textColor="@color/white"
+        android:text="1800-1172"
+        android:drawableLeft="@drawable/phone_image"
+        android:drawablePadding="10dp" />
+
+</LinearLayout>

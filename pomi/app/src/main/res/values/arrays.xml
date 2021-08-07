@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="question">
+        <item>아버지 성함은?</item>
+        <item>어머니 성함은?</item>
+        <item>출신 초등학교는?</item>
+        <item>추억의 장소는?</item>
+        <item>가장 기억하고 싶은 날짜는?</item>
+    </string-array>
+
+</resources>

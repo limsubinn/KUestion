@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy" >
+
+    <TextView
+        android:id="@+id/textID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/nanum"
+        android:text="아이디"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/joinID"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/white"
+        android:hint="영어+숫자+특수기호"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/overlap"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/joinID"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="#A9A9A9"
+        android:fontFamily="@font/nanum"
+        android:text="중복확인"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/textPW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/nanum"
+        android:text="비밀번호"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/joinPW"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/white"
+        android:hint="영어+숫자+특수기호"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/checkPW"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/white"
+        android:hint="비밀번호 확인"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/nanum"
+        android:text="이름"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/white"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="325dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/nanum"
+        android:text="전화번호"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/white"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/texthint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/nanum"
+        android:text="비밀번호질문"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/white"
+        android:entries="@array/question"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="445dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/nanum"
+        android:text="비밀번호힌트"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/hint"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="445dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/white"
+        android:inputType="textPersonName" />
+
+    <CheckBox
+        android:id="@+id/agree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:fontFamily="@font/nanum"
+        android:text="개인정보 활용 동의"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/join"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="540dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/nanum"
+        android:text="JOIN"
+        android:textSize="30dp"
+        android:textColor="@color/navy" />
+</RelativeLayout>
+
+

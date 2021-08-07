@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/mv_PORTMIS_site"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="40dp"
+        android:text="PORT-MIS"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:fontFamily="@font/nanum"
+        android:drawableLeft="@drawable/arrow_image"
+        android:drawablePadding="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layerType="software"
+        android:src="@drawable/dashline" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:text="유사기관 사이트 연결"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/nanum" />
+
+    <TextView
+        android:id="@+id/busan1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="65dp"
+        android:padding="15dp"
+        android:text="부산지방해양수산청"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:textSize="25dp"
+        android:fontFamily="@font/nanum"
+        android:drawableLeft="@drawable/arrow_image"
+        android:drawablePadding="10dp"/>
+
+    <TextView
+        android:id="@+id/incheon1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="65dp"
+        android:padding="15dp"
+        android:text="인천지방해양수산청"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="@font/nanum"
+        android:drawableLeft="@drawable/arrow_image"
+        android:drawablePadding="10dp"/>
+
+    <TextView
+        android:id="@+id/yeosu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="65dp"
+        android:padding="15dp"
+        android:text="여수지방해양수산청"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="@font/nanum"
+        android:drawableLeft="@drawable/arrow_image"
+        android:drawablePadding="10dp"/>
+
+    <TextView
+        android:id="@+id/busan2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="65dp"
+        android:padding="15dp"
+        android:text="부산항만공사"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/nanum"
+        android:drawableLeft="@drawable/arrow_image"
+        android:drawablePadding="10dp"/>
+
+    <TextView
+        android:id="@+id/incheon2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="65dp"
+        android:padding="15dp"
+        android:text="인천항만공사"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="@font/nanum"
+        android:drawableLeft="@drawable/arrow_image"
+        android:drawablePadding="10dp" />
+
+    <TextView
+        android:id="@+id/yeosu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="65dp"
+        android:padding="15dp"
+        android:text="여수광양항만공사"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="@font/nanum"
+        android:drawableLeft="@drawable/arrow_image"
+        android:drawablePadding="10dp" />
+
+    <TextView
+        android:id="@+id/ulsan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="65dp"
+        android:padding="15dp"
+        android:text="울산항만공사"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="@font/nanum"
+        android:drawableLeft="@drawable/arrow_image"
+        android:drawablePadding="10dp" />
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="무엇이든 물어보세요"
+        android:layout_marginTop="120dp"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:fontFamily="@font/nanum" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView"
+        android:text="KUestion"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:fontFamily="@font/nanum" />
+
+    <EditText
+        android:id="@+id/inputID"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:inputType="textPersonName"
+        android:hint="ID"
+        android:background="@color/white" />
+
+    <EditText
+        android:id="@+id/inputPW"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="275dp"
+        android:inputType="textPassword"
+        android:hint="PASSWORD"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:text="login"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/navy"
+        android:textSize="20dp"
+        android:fontFamily="@font/nanum" />
+    
+    <Button
+        android:id="@+id/findButton"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/loginButton"
+        android:layout_alignLeft="@+id/loginButton"
+        android:text="ID/PW"
+        android:backgroundTint="@color/navy"
+        android:textColor="@color/white"
+        android:fontFamily="@font/nanum" />
+
+    <Button
+        android:id="@+id/joinButton"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/loginButton"
+        android:layout_alignRight="@+id/loginButton"
+        android:text="Join"
+        android:backgroundTint="@color/navy"
+        android:textColor="@color/white"
+        android:fontFamily="@font/nanum"
+        android:onClick="joinClick"/>
+
+
+
+</RelativeLayout>
+
+
