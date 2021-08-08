@@ -10,4 +10,7 @@ public interface ServiceApi {
 
     @POST("/user/join")
     Call<JoinResponse> userJoin(@Body JoinData data);
+
+    @POST("/user/findID")
+    Call<FindIdResponse> IdFind(@Body FindIdData data);
 }

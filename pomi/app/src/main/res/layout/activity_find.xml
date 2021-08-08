@@ -114,19 +114,19 @@
         android:inputType="textPersonName" />
 
     <TextView
-        android:id="@+id/texthint"
+        android:id="@+id/textname2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/line"
         android:layout_marginTop="140dp"
         android:layout_marginLeft="10dp"
         android:fontFamily="@font/nanum"
-        android:text="비밀번호힌트"
+        android:text="이름"
         android:textColor="@color/white"
         android:textSize="20dp" />
 
     <EditText
-        android:id="@+id/hint"
+        android:id="@+id/username2"
         android:layout_width="270dp"
         android:layout_height="40dp"
         android:layout_below="@+id/line"
@@ -140,7 +140,7 @@
         android:id="@+id/findPW"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:layout_below="@+id/hint"
+        android:layout_below="@+id/username2"
         android:layout_alignParentRight="true"
         android:layout_marginTop="30dp"
         android:layout_marginRight="10dp"

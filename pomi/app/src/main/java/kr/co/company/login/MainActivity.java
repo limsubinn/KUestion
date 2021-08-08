@@ -124,13 +124,12 @@ public class MainActivity extends AppCompatActivity {
             public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
                 LoginResponse result = response.body();
 
-                if(result.getFlag() == 1) {
+                if(result.getCode() == 200) {
                     Toast.makeText(MainActivity.this, result.getMessage(), Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
                     startActivity(intent);
                 }else {
                     Toast.makeText(MainActivity.this, result.getMessage(), Toast.LENGTH_SHORT).show();
-
                 }
             }
 

@@ -2,7 +2,7 @@ package retrofit;
 
 import com.google.gson.annotations.SerializedName;
 
-public class LoginResponse {
+public class FindIdResponse {
 
     @SerializedName("code")
     private int code;
@@ -10,8 +10,8 @@ public class LoginResponse {
     @SerializedName("message")
     private String message;
 
-    @SerializedName("name")
-    private String name;
+    @SerializedName("id")
+    private String id;
 
     public int getCode() {
         return code;
@@ -21,7 +21,8 @@ public class LoginResponse {
         return message;
     }
 
-    public String getUserName() {
-        return name;
+    public String getUserId() {
+        return id;
     }
+
 }
