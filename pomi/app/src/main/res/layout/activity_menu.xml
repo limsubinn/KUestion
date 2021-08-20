@@ -59,4 +59,13 @@
         android:drawableLeft="@drawable/phone_image"
         android:drawablePadding="10dp" />
 
+    <Button
+        android:id="@+id/mypage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="내정보">
+
+    </Button>
+
 </LinearLayout>

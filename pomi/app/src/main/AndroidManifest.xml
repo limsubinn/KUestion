@@ -25,6 +25,7 @@
         <activity android:name=".FindActivity" />
         <activity android:name=".MenuActivity" />
         <activity android:name=".ListActivity" />
+        <activity android:name=".MemberPageActivity" />
         <activity android:name=".WebView_busan1" />
         <activity android:name=".WebView_busan2" />
         <activity android:name=".WebView_incheon1" />

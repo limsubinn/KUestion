@@ -13,4 +13,16 @@ public interface ServiceApi {
 
     @POST("/user/findID")
     Call<FindIdResponse> IdFind(@Body FindIdData data);
+
+    @POST("/user/findQ")
+    Call<FindQResponse> QFind(@Body FindQData data);
+
+    @POST("/user/findPW")
+    Call<FindPwResponse> PwFind(@Body FindPwData data);
+
+    @POST("/user/checkID")
+    Call<CheckIdResponse> IdCheck (@Body CheckIdData data);
+
+    @POST("/user/delete")
+    Call<DeleteResponse> userDelete (@Body DeleteData data);
 }

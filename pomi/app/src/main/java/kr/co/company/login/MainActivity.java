@@ -91,7 +91,8 @@ public class MainActivity extends AppCompatActivity {
         if (passwd.isEmpty()) {
             inputPW.setError("비밀번호를 입력해주세요.");
             focusView = inputPW;
-            cancel = true;}
+            cancel = true;
+        }
 //            } else if (!isPasswordValid_length(PW)) {
 //                inputPW.setError("8-16의 비밀번호를 입력해주세요영ㅇ.");
 //                focusView = inputPW;
@@ -126,7 +127,14 @@ public class MainActivity extends AppCompatActivity {
 
                 if(result.getCode() == 200) {
                     Toast.makeText(MainActivity.this, result.getMessage(), Toast.LENGTH_SHORT).show();
+
+                    String name = result.getUserName();
+                    String id = result.getUserId();
+
                     Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
+                    intent.putExtra("userName",name);
+                    intent.putExtra("userId",id);
+
                     startActivity(intent);
                 }else {
                     Toast.makeText(MainActivity.this, result.getMessage(), Toast.LENGTH_SHORT).show();

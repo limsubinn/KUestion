@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/hintText"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:text="비밀번호 힌트: "
+        android:textSize="15sp"
+        android:fontFamily="@font/nanum"/>
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        android:textSize="15sp"
+        android:fontFamily="@font/nanum"/>
+
+    <TextView
+        android:id="@+id/answerText"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/hintText"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-11dp"
+        android:fontFamily="@font/nanum"
+        android:gravity="bottom"
+        android:text="비밀번호 답변: "
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/hint"
+        android:textSize="15sp"
+        android:fontFamily="@font/nanum"/>
+
+</RelativeLayout>
