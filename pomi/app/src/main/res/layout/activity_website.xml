@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/navy"
+    android:background="@color/mint"
     android:orientation="vertical" >
 
     <TextView
@@ -14,8 +14,8 @@
         android:padding="40dp"
         android:text="PORT-MIS"
         android:textColor="@color/white"
-        android:textSize="30dp"
-        android:fontFamily="@font/nanum"
+        android:textSize="30sp"
+        android:fontFamily="@font/dunggeunmo"
         android:drawableLeft="@drawable/arrow_image"
         android:drawablePadding="10dp"/>
 
@@ -32,10 +32,10 @@
         android:padding="15dp"
         android:text="유사기관 사이트 연결"
         android:textColor="@color/white"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textStyle="bold"
         android:gravity="center_vertical"
-        android:fontFamily="@font/nanum" />
+        android:fontFamily="@font/dunggeunmo" />
 
     <TextView
         android:id="@+id/busan1"
@@ -47,8 +47,8 @@
         android:text="부산지방해양수산청"
         android:textColor="@color/white"
         android:gravity="center_vertical"
-        android:textSize="25dp"
-        android:fontFamily="@font/nanum"
+        android:textSize="25sp"
+        android:fontFamily="@font/dunggeunmo"
         android:drawableLeft="@drawable/arrow_image"
         android:drawablePadding="10dp"/>
 
@@ -61,8 +61,8 @@
         android:padding="15dp"
         android:text="인천지방해양수산청"
         android:textColor="@color/white"
-        android:textSize="25dp"
-        android:fontFamily="@font/nanum"
+        android:textSize="25sp"
+        android:fontFamily="@font/dunggeunmo"
         android:drawableLeft="@drawable/arrow_image"
         android:drawablePadding="10dp"/>
 
@@ -75,8 +75,8 @@
         android:padding="15dp"
         android:text="여수지방해양수산청"
         android:textColor="@color/white"
-        android:textSize="25dp"
-        android:fontFamily="@font/nanum"
+        android:textSize="25sp"
+        android:fontFamily="@font/dunggeunmo"
         android:drawableLeft="@drawable/arrow_image"
         android:drawablePadding="10dp"/>
 
@@ -89,9 +89,9 @@
         android:padding="15dp"
         android:text="부산항만공사"
         android:textColor="@color/white"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:gravity="center_vertical"
-        android:fontFamily="@font/nanum"
+        android:fontFamily="@font/dunggeunmo"
         android:drawableLeft="@drawable/arrow_image"
         android:drawablePadding="10dp"/>
 
@@ -104,8 +104,8 @@
         android:padding="15dp"
         android:text="인천항만공사"
         android:textColor="@color/white"
-        android:textSize="25dp"
-        android:fontFamily="@font/nanum"
+        android:textSize="25sp"
+        android:fontFamily="@font/dunggeunmo"
         android:drawableLeft="@drawable/arrow_image"
         android:drawablePadding="10dp" />
 
@@ -118,8 +118,8 @@
         android:padding="15dp"
         android:text="여수광양항만공사"
         android:textColor="@color/white"
-        android:textSize="25dp"
-        android:fontFamily="@font/nanum"
+        android:textSize="25sp"
+        android:fontFamily="@font/dunggeunmo"
         android:drawableLeft="@drawable/arrow_image"
         android:drawablePadding="10dp" />
 
@@ -132,8 +132,8 @@
         android:padding="15dp"
         android:text="울산항만공사"
         android:textColor="@color/white"
-        android:textSize="25dp"
-        android:fontFamily="@font/nanum"
+        android:textSize="25sp"
+        android:fontFamily="@font/dunggeunmo"
         android:drawableLeft="@drawable/arrow_image"
         android:drawablePadding="10dp" />
 </LinearLayout>

@@ -12,8 +12,8 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="30dp"
         android:text="비밀번호 힌트: "
-        android:textSize="15sp"
-        android:fontFamily="@font/nanum"/>
+        android:textSize="12sp"
+        android:fontFamily="@font/dunggeunmo"/>
 
     <TextView
         android:id="@+id/hint"
@@ -22,8 +22,8 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="30dp"
         android:layout_alignParentRight="true"
-        android:textSize="15sp"
-        android:fontFamily="@font/nanum"/>
+        android:textSize="12sp"
+        android:fontFamily="@font/dunggeunmo"/>
 
     <TextView
         android:id="@+id/answerText"
@@ -32,10 +32,10 @@
         android:layout_below="@+id/hintText"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="-11dp"
-        android:fontFamily="@font/nanum"
+        android:fontFamily="@font/dunggeunmo"
         android:gravity="bottom"
         android:text="비밀번호 답변: "
-        android:textSize="15sp" />
+        android:textSize="12sp" />
 
     <EditText
         android:id="@+id/answer"
@@ -44,7 +44,7 @@
         android:layout_marginRight="30dp"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/hint"
-        android:textSize="15sp"
-        android:fontFamily="@font/nanum"/>
+        android:textSize="12sp"
+        android:fontFamily="@font/dunggeunmo"/>
 
 </RelativeLayout>

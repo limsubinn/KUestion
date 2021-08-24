@@ -8,4 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="navy">#FF243760</color>
+    <color name="mint">#FF4BC6E2</color>
+    <color name="darkmint">#FF21ACCD</color>
 </resources>
