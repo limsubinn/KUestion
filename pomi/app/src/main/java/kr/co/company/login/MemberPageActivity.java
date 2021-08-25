@@ -71,12 +71,14 @@ public class MemberPageActivity extends AppCompatActivity {
                             @Override
                             public void onResponse(Call<DeleteResponse> call, Response<DeleteResponse> response) {
                                 DeleteResponse result = response.body();
-                                System.out.println(result.getCode()); // 잘 들어옴
 
                                 if (result.getCode() == 200) {
                                     Toast.makeText(MemberPageActivity.this, result.getMessage(), Toast.LENGTH_SHORT).show();
-                                    Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                                    startActivity(intent);
+                                    Intent i = new Intent(MemberPageActivity.this, MainActivity.class);
+                                    i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                                    startActivity(i);
+                                    //Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                                    //startActivity(intent);
                                 } else {
                                     Toast.makeText(MemberPageActivity.this, result.getMessage(), Toast.LENGTH_SHORT).show();
                                 }
@@ -119,11 +121,14 @@ public class MemberPageActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Toast.makeText(MemberPageActivity.this, "로그아웃 되셨습니다.", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(intent);
-            }
+                Toast.makeText(MemberPageActivity.this, "로그아웃 되었습니다.", Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(MemberPageActivity.this, MainActivity.class);
+                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP|Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                startActivity(i);
 
+                //Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                //startActivity(intent);
+            }
 
         });
 
