@@ -33,6 +33,15 @@ public class MenuActivity extends AppCompatActivity {
             }
         });
 
+        TextView mv_chatbot = findViewById(R.id.mv_chatbot);
+        mv_chatbot.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), ChatActivity.class);
+                startActivity(intent);
+            }
+        });
+
         TextView mv_website = findViewById(R.id.mv_website);
         mv_website.setOnClickListener(new View.OnClickListener() {
             @Override

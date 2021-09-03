@@ -74,7 +74,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    ////////////////////////////SERVICE
 
     private void attemptLogin() {
 
@@ -93,31 +92,21 @@ public class MainActivity extends AppCompatActivity {
             focusView = inputPW;
             cancel = true;
         }
-//            } else if (!isPasswordValid_length(PW)) {
-//                inputPW.setError("8-16의 비밀번호를 입력해주세요영ㅇ.");
-//                focusView = inputPW;
-//                cancel = true;
-//            }
 
-        // 이메일의 유효성 검사
+        // 아이디의 유효성 검사
         if (id.isEmpty()) {
             inputID.setError("아이디를 입력해주세요.");
             focusView = inputID;
             cancel = true;
         }
-//            } else if (!isEmailValid(email)) {
-//                mEmailView.setError("@를 포함한 유효한 이메일을 입력해주세요.");
-//                focusView = mEmailView;
-//                cancel = true;
-//            }
 
         if (cancel) {
             focusView.requestFocus();
         } else {
             startLogin(new LoginData(id, passwd));
-//            showProgress(true);
         }
     }
+
     private void startLogin(LoginData data) {
         service.userLogin(data).enqueue(new Callback<LoginResponse>() {
 
@@ -145,25 +134,9 @@ public class MainActivity extends AppCompatActivity {
             public void onFailure(Call<LoginResponse> call, Throwable t) {
                 Toast.makeText(MainActivity.this, "로그인 에러 발생", Toast.LENGTH_SHORT).show();
                 Log.e("로그인 에러 발생", t.getMessage());
-//                showProgress(false);
             }
         });
     }
 
-
-
-//    private void showProgress(boolean show) {
-//        mProgressView.setVisibility(show ? View.VISIBLE : View.GONE);
-//    }
-
-//    private boolean isPasswordValid_smallLetter(String PW) {
-//
-//        for (int i=0; i<PW.length(); i++){
-//            if(PW[i] >='a' && PW[i] <='z')
-//
-//
-//        }
-//
-//    }
 
 }

@@ -34,8 +34,6 @@ public class JoinActivity extends AppCompatActivity {
     private EditText hint;
     private CheckBox agree;
     private Button join;
-    private AlertDialog dialog;
-    private boolean id_validate = false;
 
     private ServiceApi service;
 

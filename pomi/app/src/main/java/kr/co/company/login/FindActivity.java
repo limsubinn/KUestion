@@ -85,15 +85,15 @@ public class FindActivity extends AppCompatActivity {
         boolean cancel = false;
         View focusView = null;
 
-        if (name.isEmpty()) {
-            username.setError("이름을 입력해주세요.");
-            focusView = username;
-            cancel = true;
-        }
-
         if (tel.isEmpty()) {
             phone.setError("전화번호를 입력해주세요.");
             focusView = phone;
+            cancel = true;
+        }
+
+        if (name.isEmpty()) {
+            username.setError("이름을 입력해주세요.");
+            focusView = username;
             cancel = true;
         }
 
@@ -113,8 +113,6 @@ public class FindActivity extends AppCompatActivity {
 
                 if (result.getCode() == 200) {
                     AlertDialog.Builder builder = new android.app.AlertDialog.Builder(FindActivity.this);
-
-                    //builder.setTitle("인사말").setMessage("반갑습니다");
                     builder.setMessage(result.getMessage())
                             .setPositiveButton("확인", new OnClickListener() {
                                 public void onClick(DialogInterface dialog, int id) {
@@ -138,33 +136,6 @@ public class FindActivity extends AppCompatActivity {
             }
         });
     }
-
-
-/*
-    public void showDialog(View view) {
-        final EditText answer = new EditText(this);
-
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("비밀번호 찾기");
-        builder.setMessage("비밀번호 질문");
-        builder.setMessage("비밀번호 답변");
-        builder.setView(answer);
-        builder.setPositiveButton("확", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-                Toast.makeText(getApplicationContext(),editText.getText().toString(), Toast.LENGTH_SHORT).show();
-            }
-        });
-        builder.setNegativeButton("취소", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-
-            }
-        });
-        builder.show();
-    }
-
-*/
 
     private void attemptFindPw() {
 
@@ -209,8 +180,6 @@ public class FindActivity extends AppCompatActivity {
 
                     final TextView hint = (TextView)dialogLayout.findViewById(R.id.hint);
                     final EditText answer = (EditText)dialogLayout.findViewById(R.id.answer);
-                    //final Button ok = (Button)dialogLayout.findViewById(R.id.ok);
-                    //final Button cancel = (Button)dialogLayout.findViewById(R.id.cancel);
 
                     hint.setText(result.getMessage());
 
@@ -252,7 +221,6 @@ public class FindActivity extends AppCompatActivity {
                 if (result.getCode() == 200) {
                     AlertDialog.Builder builder = new android.app.AlertDialog.Builder(FindActivity.this);
 
-                    //builder.setTitle("인사말").setMessage("반갑습니다");
                     builder.setMessage(result.getMessage())
                             .setPositiveButton("확인", new OnClickListener() {
                                 public void onClick(DialogInterface dialog, int id) {

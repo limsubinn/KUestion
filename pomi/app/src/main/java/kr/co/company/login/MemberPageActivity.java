@@ -63,7 +63,6 @@ public class MemberPageActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialogInterface, int i) {
 
                         String input_pw = editText.getText().toString();
-                        System.out.println(input_pw);//잘 들어옴
 
                         //데이터베이스의 passwd 비교
                         service.userDelete(new DeleteData(input_pw, input_id )).enqueue(new Callback<DeleteResponse>() {
@@ -88,7 +87,7 @@ public class MemberPageActivity extends AppCompatActivity {
                             public void onFailure(Call<DeleteResponse> call, Throwable t) {
                                 Toast.makeText(MemberPageActivity.this, "탈퇴 에러", Toast.LENGTH_SHORT).show();
                                 Log.e("탈퇴 에러", t.getMessage());
-                                //탈퇴 에러시 그대로..
+
                                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                                 startActivity(intent);
 
@@ -103,16 +102,12 @@ public class MemberPageActivity extends AppCompatActivity {
                 builder.setNegativeButton("취소", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        Toast.makeText(getApplicationContext(), "회원탈퇴를 취소하셨습니다.", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "회원탈퇴를 취소하였습니다", Toast.LENGTH_LONG).show();
 
                     }
                 });
                 builder.show();
 
-//
-//                AlertDialog alertDialog = builder.create();
-//
-//                alertDialog.show();
             }
 
         });
@@ -121,7 +116,7 @@ public class MemberPageActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Toast.makeText(MemberPageActivity.this, "로그아웃 되었습니다.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MemberPageActivity.this, "로그아웃 되었습니다", Toast.LENGTH_SHORT).show();
                 Intent i = new Intent(MemberPageActivity.this, MainActivity.class);
                 i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP|Intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivity(i);

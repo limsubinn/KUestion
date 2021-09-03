@@ -9,8 +9,8 @@ import android.webkit.WebViewClient;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class WebView_yeosu1 extends AppCompatActivity {
-    private WebView mWebView; // 웹뷰 선언
-    private WebSettings mWebSettings; //웹뷰세팅
+    private WebView mWebView;
+    private WebSettings mWebSettings;
 
 
     @Override
