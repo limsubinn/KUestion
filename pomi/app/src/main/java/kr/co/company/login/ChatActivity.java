@@ -46,7 +46,7 @@ public class ChatActivity extends AppCompatActivity implements BotReply {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_chat);
         chatView = findViewById(R.id.chatView);
         editMessage = findViewById(R.id.editMessage);
         btnSend = findViewById(R.id.btnSend);
