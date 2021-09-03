@@ -57,6 +57,7 @@ public class ChatActivity extends AppCompatActivity implements BotReply {
         btnSend.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View view) {
                 String message = editMessage.getText().toString();
+                System.out.println(message);
                 if (!message.isEmpty()) {
                     messageList.add(new MessageData(message, false));
                     editMessage.setText("");
@@ -75,7 +76,7 @@ public class ChatActivity extends AppCompatActivity implements BotReply {
 
     private void setUpBot() {
         try {
-            InputStream stream = this.getResources().openRawResource(R.raw.chatbot);
+            InputStream stream = this.getResources().openRawResource(R.raw.credential);
             GoogleCredentials credentials = GoogleCredentials.fromStream(stream)
                     .createScoped(Lists.newArrayList("https://www.googleapis.com/auth/cloud-platform"));
             String projectId = ((ServiceAccountCredentials) credentials).getProjectId();
@@ -94,7 +95,7 @@ public class ChatActivity extends AppCompatActivity implements BotReply {
 
     private void sendMessageToBot(String message) {
         QueryInput input = QueryInput.newBuilder()
-                .setText(TextInput.newBuilder().setText(message).setLanguageCode("en-US")).build();
+                .setText(TextInput.newBuilder().setText(message).setLanguageCode("ko-US")).build();
         new SendMessageInBg(this, sessionName, sessionsClient, input).execute();
     }
 
