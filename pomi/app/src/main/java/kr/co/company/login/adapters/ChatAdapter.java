@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -28,15 +29,19 @@ public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.MyViewHolder> 
         return new MyViewHolder(view);
     }
 
-    @Override public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
+    @Override
+    public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         String message = messageList.get(position).getMessage();
         boolean isReceived = messageList.get(position).getIsReceived();
+
         if(isReceived){
+            holder.chatImage.setVisibility(View.VISIBLE);
             holder.messageReceive.setVisibility(View.VISIBLE);
             holder.messageSend.setVisibility(View.GONE);
             holder.messageReceive.setText(message);
         }else {
             holder.messageSend.setVisibility(View.VISIBLE);
+            holder.chatImage.setVisibility(View.GONE);
             holder.messageReceive.setVisibility(View.GONE);
             holder.messageSend.setText(message);
         }
@@ -50,11 +55,13 @@ public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.MyViewHolder> 
 
         TextView messageSend;
         TextView messageReceive;
+        ImageView chatImage;
 
         MyViewHolder(@NonNull View itemView) {
             super(itemView);
             messageSend = itemView.findViewById(R.id.message_send);
             messageReceive = itemView.findViewById(R.id.message_receive);
+            chatImage = itemView.findViewById(R.id.chatImage);
         }
     }
 

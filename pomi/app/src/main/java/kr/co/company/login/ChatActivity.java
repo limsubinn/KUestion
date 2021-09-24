@@ -1,8 +1,10 @@
 package kr.co.company.login;
 
 import android.os.Bundle;
+import android.os.Message;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
@@ -36,6 +38,7 @@ public class ChatActivity extends AppCompatActivity implements BotReply {
     List<MessageData> messageList = new ArrayList<>();
     EditText editMessage;
     ImageButton btnSend;
+    Button backButton;
 
     //dialogFlow
     private SessionsClient sessionsClient;
@@ -50,10 +53,12 @@ public class ChatActivity extends AppCompatActivity implements BotReply {
         chatView = findViewById(R.id.chatView);
         editMessage = findViewById(R.id.editMessage);
         btnSend = findViewById(R.id.btnSend);
+        backButton = findViewById(R.id.backButton);
 
         chatAdapter = new ChatAdapter(messageList, this);
         chatView.setAdapter(chatAdapter);
 
+        messageList.add(new MessageData("안녕하세요. 저는 인공지능 챗봇입니다.\n 신청할 민원을 내용을 직접 입력해주세요.\n( ex. 신고, 조회 )", true));
 
         btnSend.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View view) {
@@ -69,6 +74,13 @@ public class ChatActivity extends AppCompatActivity implements BotReply {
                 } else {
                     Toast.makeText(ChatActivity.this, "Please enter text!", Toast.LENGTH_SHORT).show();
                 }
+            }
+        });
+
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onBackPressed();
             }
         });
 
