@@ -54,6 +54,7 @@ public class ChatActivity extends AppCompatActivity implements BotReply {
         chatAdapter = new ChatAdapter(messageList, this);
         chatView.setAdapter(chatAdapter);
 
+
         btnSend.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View view) {
                 String message = editMessage.getText().toString();
