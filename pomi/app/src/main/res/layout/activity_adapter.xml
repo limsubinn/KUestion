@@ -7,8 +7,6 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="10dp"
-        android:padding="10dp"
         android:textColor="@android:color/white"
         android:textSize="15sp"
         android:minHeight="30dp"
@@ -17,6 +15,7 @@
         android:layout_gravity="right"
         android:background="@drawable/bg_chat_send"
         android:layout_weight="1"
+        android:padding="10dp"
         >
 
     </TextView>
@@ -25,25 +24,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginLeft="10dp"
         android:layout_weight="1" >
 
         <ImageView
             android:id="@+id/chatImage"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="40dp"
             android:src="@drawable/bot" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="10dp"
+            android:layout_marginLeft="5dp"
             android:minHeight="30dp"
             android:textColor="@android:color/black"
             android:textSize="15sp"
             android:id="@+id/message_receive"
             android:background="@drawable/bg_chat_receive"
-            android:layout_marginBottom="30dp" />
+            android:layout_marginBottom="30dp"
+            android:padding="10dp" />
 
     </LinearLayout>
 
