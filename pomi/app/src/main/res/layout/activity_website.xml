@@ -1,139 +1,178 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<androidx.drawerlayout.widget.DrawerLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/darkmint"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:id="@+id/websiteLayout" >
 
-    <TextView
-        android:id="@+id/mv_PORTMIS_site"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:padding="40dp"
-        android:text="PORT-MIS"
-        android:textColor="@color/white"
-        android:textSize="30sp"
-        android:fontFamily="@font/dunggeunmo"
-        android:drawableLeft="@drawable/arrow_image"
-        android:drawablePadding="10dp"/>
-
-    <ImageView
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="15dp"
-        android:layerType="software"
-        android:src="@drawable/dashline" />
+        android:layout_height="match_parent"
+        android:background="@color/darkmint"
+        android:orientation="vertical" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:padding="15dp"
-        android:text="유사기관 사이트 연결"
-        android:textColor="@color/white"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:gravity="center_vertical"
-        android:fontFamily="@font/dunggeunmo" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
 
-    <TextView
-        android:id="@+id/busan1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:layout_marginLeft="65dp"
-        android:padding="15dp"
-        android:text="부산지방해양수산청"
-        android:textColor="@color/white"
-        android:gravity="center_vertical"
-        android:textSize="25sp"
-        android:fontFamily="@font/dunggeunmo"
-        android:drawableLeft="@drawable/arrow_image"
-        android:drawablePadding="10dp"/>
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dunggeunmo"
+                android:text="\u003c"
+                android:textSize="30sp"
+                android:backgroundTint="@color/darkmint" />
 
-    <TextView
-        android:id="@+id/incheon1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:layout_marginLeft="65dp"
-        android:padding="15dp"
-        android:text="인천지방해양수산청"
-        android:textColor="@color/white"
-        android:textSize="25sp"
-        android:fontFamily="@font/dunggeunmo"
-        android:drawableLeft="@drawable/arrow_image"
-        android:drawablePadding="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/darkmint"
+                android:textColor="@color/white"
+                android:text="Website"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:fontFamily="@font/dunggeunmo"
+                android:textSize="35sp"
+                android:paddingTop="3dp" />
+        </RelativeLayout>
 
-    <TextView
-        android:id="@+id/yeosu1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:layout_marginLeft="65dp"
-        android:padding="15dp"
-        android:text="여수지방해양수산청"
-        android:textColor="@color/white"
-        android:textSize="25sp"
-        android:fontFamily="@font/dunggeunmo"
-        android:drawableLeft="@drawable/arrow_image"
-        android:drawablePadding="10dp"/>
+        <TextView
+            android:id="@+id/mv_PORTMIS_site"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:text="PORT-MIS"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:fontFamily="@font/dunggeunmo"
+            android:drawableLeft="@drawable/arrow_image"
+            android:drawablePadding="10dp"/>
 
-    <TextView
-        android:id="@+id/busan2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:layout_marginLeft="65dp"
-        android:padding="15dp"
-        android:text="부산항만공사"
-        android:textColor="@color/white"
-        android:textSize="25sp"
-        android:gravity="center_vertical"
-        android:fontFamily="@font/dunggeunmo"
-        android:drawableLeft="@drawable/arrow_image"
-        android:drawablePadding="10dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layerType="software"
+            android:src="@drawable/dashline" />
 
-    <TextView
-        android:id="@+id/incheon2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:layout_marginLeft="65dp"
-        android:padding="15dp"
-        android:text="인천항만공사"
-        android:textColor="@color/white"
-        android:textSize="25sp"
-        android:fontFamily="@font/dunggeunmo"
-        android:drawableLeft="@drawable/arrow_image"
-        android:drawablePadding="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:text="유사기관 사이트 연결"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/dunggeunmo" />
 
-    <TextView
-        android:id="@+id/yeosu2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:layout_marginLeft="65dp"
-        android:padding="15dp"
-        android:text="여수광양항만공사"
-        android:textColor="@color/white"
-        android:textSize="25sp"
-        android:fontFamily="@font/dunggeunmo"
-        android:drawableLeft="@drawable/arrow_image"
-        android:drawablePadding="10dp" />
+        <TextView
+            android:id="@+id/busan1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="65dp"
+            android:padding="10dp"
+            android:text="부산지방해양수산청"
+            android:textColor="@color/white"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:fontFamily="@font/dunggeunmo"
+            android:drawableLeft="@drawable/arrow_image"
+            android:drawablePadding="10dp"/>
 
-    <TextView
-        android:id="@+id/ulsan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:layout_marginLeft="65dp"
-        android:padding="15dp"
-        android:text="울산항만공사"
-        android:textColor="@color/white"
-        android:textSize="25sp"
-        android:fontFamily="@font/dunggeunmo"
-        android:drawableLeft="@drawable/arrow_image"
-        android:drawablePadding="10dp" />
-</LinearLayout>
+        <TextView
+            android:id="@+id/incheon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="65dp"
+            android:padding="10dp"
+            android:text="인천지방해양수산청"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:fontFamily="@font/dunggeunmo"
+            android:drawableLeft="@drawable/arrow_image"
+            android:drawablePadding="10dp"/>
+
+        <TextView
+            android:id="@+id/yeosu1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="65dp"
+            android:padding="10dp"
+            android:text="여수지방해양수산청"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:fontFamily="@font/dunggeunmo"
+            android:drawableLeft="@drawable/arrow_image"
+            android:drawablePadding="10dp"/>
+
+        <TextView
+            android:id="@+id/busan2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="65dp"
+            android:padding="10dp"
+            android:text="부산항만공사"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/dunggeunmo"
+            android:drawableLeft="@drawable/arrow_image"
+            android:drawablePadding="10dp"/>
+
+        <TextView
+            android:id="@+id/incheon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="65dp"
+            android:padding="10dp"
+            android:text="인천항만공사"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:fontFamily="@font/dunggeunmo"
+            android:drawableLeft="@drawable/arrow_image"
+            android:drawablePadding="10dp" />
+
+        <TextView
+            android:id="@+id/yeosu2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="65dp"
+            android:padding="10dp"
+            android:text="여수광양항만공사"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:fontFamily="@font/dunggeunmo"
+            android:drawableLeft="@drawable/arrow_image"
+            android:drawablePadding="10dp" />
+
+        <TextView
+            android:id="@+id/ulsan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="65dp"
+            android:padding="10dp"
+            android:text="울산항만공사"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:fontFamily="@font/dunggeunmo"
+            android:drawableLeft="@drawable/arrow_image"
+            android:drawablePadding="10dp" />
+    </LinearLayout>
+
+    <include layout="@layout/activity_navi"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

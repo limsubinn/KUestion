@@ -5,118 +5,158 @@
     android:layout_height="match_parent"
     android:layout_gravity="start"
     android:id="@+id/drawerView"
-    android:background="#5559b4">
+    android:background="@color/white">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:background="#5559b4">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="반갑습니다"
-            android:textSize="14dp"
-            android:textColor="#ffffff"
-            android:layout_marginTop="60dp"
-            android:layout_centerHorizontal="true">
-        </TextView>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="이아람 님"
-            android:textSize="26dp"
-            android:textColor="#ffffff"
-            android:layout_marginTop="80dp"
-            android:layout_marginLeft="94dp"
-            >
-        </TextView>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="쭉쭉이와 함께 활기찬 하루 시작하세요"
-            android:textSize="14dp"
-            android:textColor="#ffffff"
-            android:layout_marginTop="130dp"
-            android:layout_centerHorizontal="true">
-        </TextView>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#80ffffff"
-            android:layout_marginTop="270dp">
-        </LinearLayout>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="운동이력"
-            android:textColor="#ffffff"
-            android:id="@+id/nav_ex"
-            android:layout_marginTop="298dp"
-            android:layout_marginLeft="44dp"
-            android:onClick="OnClick">
-        </TextView>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#80ffffff"
-            android:layout_marginTop="340dp">
-        </LinearLayout>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="회원정보수정"
-            android:textColor="#ffffff"
-            android:id="@+id/nav_info"
-            android:layout_marginTop="368dp"
-            android:layout_marginLeft="44dp"
-            android:onClick="OnClick">
-        </TextView>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#80ffffff"
-            android:layout_marginTop="410dp">
-        </LinearLayout>
+        android:background="@color/white"
+        android:orientation="horizontal">
 
 
         <TextView
+            android:id="@+id/user_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="도움말"
-            android:textColor="#ffffff"
-            android:id="@+id/nav_help"
-            android:layout_marginTop="438dp"
-            android:layout_marginLeft="44dp"
-            android:onClick="OnClick">
-        </TextView>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#80ffffff"
-            android:layout_marginTop="480dp">
-        </LinearLayout>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="로그아웃"
-            android:textSize="15dp"
-            android:textColor="#ffffff"
-            android:id="@+id/nav_logout"
-            android:layout_marginTop="550dp"
             android:layout_centerHorizontal="true"
-            android:onClick="OnClick">
+            android:layout_marginTop="90dp"
+            android:fontFamily="@font/dunggeunmo"
+            android:textColor="@color/black"
+            android:textSize="26sp" >
         </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp"
+            android:fontFamily="@font/dunggeunmo"
+            android:gravity="center"
+            android:text="환영합니다!\nPort-mis 서비스를 이용해보세요."
+            android:textColor="@color/black"
+            android:textSize="14dp" >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="200dp"
+            android:background="@color/mint" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/mv_chatbot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="228dp"
+            android:fontFamily="@font/dunggeunmo"
+            android:onClick="OnClick"
+            android:text="ChatBot"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/chatImage"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="228dp"
+            android:src="@drawable/chat2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="270dp"
+            android:background="@color/mint">
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/call_portmis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="298dp"
+            android:fontFamily="@font/dunggeunmo"
+            android:onClick="OnClick"
+            android:text="1800-1172"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="298dp"
+            android:src="@drawable/call2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="340dp"
+            android:background="@color/mint" >
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/mv_website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="368dp"
+            android:fontFamily="@font/dunggeunmo"
+            android:onClick="OnClick"
+            android:text="WebSite"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="368dp"
+            android:src="@drawable/web2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="410dp"
+            android:background="@color/mint" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="480dp"
+            android:onClick="OnClick"
+            android:text="로그아웃"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:fontFamily="@font/dunggeunmo"
+            android:backgroundTint="@color/white">
+        </Button>
+
+        <Button
+            android:id="@+id/deleteMember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logout"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/dunggeunmo"
+            android:onClick="OnClick"
+            android:text="회원탈퇴"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:backgroundTint="@color/white" >
+        </Button>
+
     </RelativeLayout>
 
 </LinearLayout>
