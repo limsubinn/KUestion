@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
                     String name = result.getUserName();
                     String id = result.getUserId();
 
-                    Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), ChatActivity.class);
                     intent.putExtra("userName",name);
                     intent.putExtra("userId",id);
 

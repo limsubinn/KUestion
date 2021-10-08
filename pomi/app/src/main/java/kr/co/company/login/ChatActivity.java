@@ -1,15 +1,26 @@
 package kr.co.company.login;
 
+import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Message;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
+import android.widget.Toolbar;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.material.navigation.NavigationView;
 import com.google.api.gax.core.FixedCredentialsProvider;
 import com.google.auth.oauth2.GoogleCredentials;
 import com.google.auth.oauth2.ServiceAccountCredentials;
@@ -32,7 +43,7 @@ import kr.co.company.login.interfaces.BotReply;
 import retrofit.MessageData;
 
 public class ChatActivity extends AppCompatActivity implements BotReply {
-
+    Toolbar toolbar;
     RecyclerView chatView;
     ChatAdapter chatAdapter;
     List<MessageData> messageList = new ArrayList<>();
@@ -40,12 +51,16 @@ public class ChatActivity extends AppCompatActivity implements BotReply {
     ImageButton btnSend;
     Button backButton;
 
+    DrawerLayout drawerLayout;
+    View drawerView;
+
     //dialogFlow
     private SessionsClient sessionsClient;
     private SessionName sessionName;
     private String uuid = UUID.randomUUID().toString();
     private String TAG = "chatactivity";
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,8 +75,14 @@ public class ChatActivity extends AppCompatActivity implements BotReply {
 
         messageList.add(new MessageData("안녕하세요. 저는 인공지능 챗봇입니다.\n 신청할 민원을 내용을 직접 입력해주세요.\n( ex. 신고, 조회 )", true));
 
+        Intent intent = getIntent();
+        String name = intent.getStringExtra("userName");
+        String id = intent.getStringExtra("userId");
+
+
         btnSend.setOnClickListener(new View.OnClickListener() {
-            @Override public void onClick(View view) {
+            @Override
+            public void onClick(View view) {
                 String message = editMessage.getText().toString();
                 System.out.println(message);
                 if (!message.isEmpty()) {
@@ -77,15 +98,38 @@ public class ChatActivity extends AppCompatActivity implements BotReply {
             }
         });
 
+        setUpBot();
+
+        drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawerView = (View) findViewById(R.id.drawerView);
+        drawerLayout.addDrawerListener(listener);
+
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                onBackPressed();
+                drawerLayout.openDrawer(drawerView);
             }
         });
-
-        setUpBot();
     }
+
+    DrawerLayout.DrawerListener listener = new DrawerLayout.DrawerListener() {
+
+        @Override
+        public void onDrawerSlide(@NonNull View drawerView, float slideOffset) {
+        }
+
+        @Override
+        public void onDrawerOpened(@NonNull View drawerView) {
+        }
+
+        @Override
+        public void onDrawerClosed(@NonNull View drawerView) {
+        }
+
+        @Override
+        public void onDrawerStateChanged(int newState) {
+        }
+    };
 
     private void setUpBot() {
         try {
@@ -114,17 +158,21 @@ public class ChatActivity extends AppCompatActivity implements BotReply {
 
     @Override
     public void callback(DetectIntentResponse returnResponse) {
-        if(returnResponse!=null) {
+        if (returnResponse != null) {
             String botReply = returnResponse.getQueryResult().getFulfillmentText();
-            if(!botReply.isEmpty()){
+            if (!botReply.isEmpty()) {
                 messageList.add(new MessageData(botReply, true));
                 chatAdapter.notifyDataSetChanged();
                 Objects.requireNonNull(chatView.getLayoutManager()).scrollToPosition(messageList.size() - 1);
-            }else {
+            } else {
                 Toast.makeText(this, "something went wrong", Toast.LENGTH_SHORT).show();
             }
         } else {
             Toast.makeText(this, "failed to connect!", Toast.LENGTH_SHORT).show();
         }
     }
+
+
+
+
 }
