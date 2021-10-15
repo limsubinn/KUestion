@@ -22,18 +22,16 @@
         />
 
 
-
     <EditText
         android:id="@+id/inputID"
         android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="200dp"
-        android:inputType="textPersonName"
-        android:hint="  ID"
         android:background="@drawable/border_layout"
-
-        />
+        android:hint="  ID"
+        android:inputType="textPersonName"
+        android:textColor="@color/black" />
 
     <EditText
         android:id="@+id/inputPW"
@@ -43,7 +41,8 @@
         android:layout_marginTop="250dp"
         android:inputType="textPassword"
         android:hint="  PASSWORD"
-        android:background="@drawable/border_layout" />
+        android:background="@drawable/border_layout"
+        android:textColor="@color/black"/>
 
     <Button
         android:id="@+id/loginButton"

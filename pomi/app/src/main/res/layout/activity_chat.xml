@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:id="@+id/drawer_layout" >
+    android:id="@+id/drawer_layout"
+    android:background="@color/white">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -28,6 +29,7 @@
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/dunggeunmo"
+                android:textColor="@color/white"
                 android:text="\u003c"
                 android:textSize="30sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -86,13 +88,14 @@
             app:stackFromEnd="true"
             tools:itemCount="3"
             tools:listitem="@layout/activity_adapter"
-            android:fontFamily="@font/dunggeunmo"/>
+            android:fontFamily="@font/dunggeunmo"
+            android:background="@color/white"/>
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintLayout"
             android:layout_width="0dp"
             android:layout_height="50dp"
-            android:layout_margin="10dp"
+
             android:background="@drawable/border_outline"
             android:backgroundTint="@color/darkmint"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -102,17 +105,21 @@
 
             <EditText
                 android:id="@+id/editMessage"
-                android:layout_width="310dp"
+                android:layout_width="280dp"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:padding="10dp"
-                android:hint="민원을 입력해주세요."
                 android:background="@color/white"
+                android:ems="10"
+                android:hint="민원을 입력해주세요."
+                android:inputType="textPersonName"
+                android:layout_margin="3dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/btnSend"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
 
             <ImageButton
                 android:id="@+id/btnSend"

@@ -1,9 +1,11 @@
 package kr.co.company.login;
 
 import android.app.AlertDialog;
+import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -34,6 +36,7 @@ public class JoinActivity extends AppCompatActivity {
     private EditText hint;
     private CheckBox agree;
     private Button join;
+    private ArrayAdapter arrayAdapter;
 
     private ServiceApi service;
 
@@ -62,14 +65,23 @@ public class JoinActivity extends AppCompatActivity {
             }
         });
 
-       // CheckBox agree = (CheckBox) findViewById(R.id.agree) ;
+        // CheckBox agree = (CheckBox) findViewById(R.id.agree) ;
         agree.setOnClickListener(new CheckBox.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // TODO : process the click event.
             }
         });
+
+        String[] question = getResources().getStringArray(R.array.question);
+
+        //ArryaAdapter 객체 생성
+        ArrayAdapter adapter = new ArrayAdapter(getBaseContext(),R.layout.activity_spinner,question);
+        adapter.setDropDownViewResource(R.layout.activity_spinner);
+        spinner.setAdapter(adapter);
     }
+
+
 
     private void attemptJoin() {
         username.setError(null);
