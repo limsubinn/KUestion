@@ -1,0 +1,82 @@
+{
+  "id": "1ff369bf-c198-4e1c-949c-bef748dd93f5",
+  "name": "Code",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Code-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "어떤 코드를 알려드릴까요?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "code",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b11b14d5-aec3-45fc-9217-e81b5b0db1b9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "코드",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4e01c5d8-c0d7-43fe-a0be-9f092df84b92",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "코드 알려줘",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fb70c764-5c9e-4646-8172-889cecc233d6",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

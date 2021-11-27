@@ -1,0 +1,17 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "test",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "여객선",
+      "synonyms": [
+        "여객선"
+      ]
+    }
+  ],
+  "id": "994f53b9-8452-4f57-9808-488a161f1f8a",
+  "isOverridable": false
+}

@@ -1,0 +1,225 @@
+{
+  "id": "270eacff-fc77-4579-8b5e-1e81249ccda3",
+  "name": "FAQ_신고내역",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "신고내역은 항만민원 - 조회/발급/사용료 - 민원신고 내역에서 조회가 가능하며\n관제는 정보이용 - 관제 - 관제교신현황에서 조회가 가능합니다.\n필수입력정보는 청코드와 입출항 기간입니다."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "관제",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 보고 싶어요",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "48150e94-7d71-4cd8-998f-696e9a143c87",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "관제",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 보는 법",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "49cdca43-e749-494b-89dc-0b8b871f0145",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "신고내역 보고 싶어요",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a766fa19-f3f5-44aa-a543-133ffca448f8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "신고내역 보는 법",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bbb7320f-8517-472d-b2cc-8a01e0da9b77",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "관제",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 어디서 ",
+          "userDefined": false
+        },
+        {
+          "text": "보",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "나요?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bc473b9b-47d2-447a-a4b3-a6bca294a04d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "관제",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "보기",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "bb6c2ca9-10e4-4b03-ad2e-ef186750b1af",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "신고내역 어디서 ",
+          "userDefined": false
+        },
+        {
+          "text": "보",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "나요?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0789acbb-655f-4663-85d9-75a2569c7564",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "신고내역 ",
+          "userDefined": false
+        },
+        {
+          "text": "보기",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "3eb94888-c2e9-434a-acb7-e85978d6c22c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "신고내역과 ",
+          "userDefined": false
+        },
+        {
+          "text": "관제",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "를 볼수있는 화면",
+          "userDefined": false
+        },
+        {
+          "text": "은",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 어디인가요?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6ffc79a7-71ec-45eb-85c7-aa3c35549124",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

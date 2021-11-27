@@ -1,0 +1,213 @@
+{
+  "id": "cc2bc549-e816-440e-a0c4-a25ed4a5b71d",
+  "name": "FAQ_입출항신고",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "입항신고(최초) - 항만시설사용허가신청 - 출항신고(최초) - 입항신고(최종) - 출항신고(최종) 순서로 합니다.\n화물 및 위험물이 존재한다면 이 또한 신고해야하며, 항만시설사용신고(화물료)도 신고해야합니다."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "출항신고 할건데 어떤 순서",
+          "userDefined": false
+        },
+        {
+          "text": "로",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 해?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ea9e510e-2441-45f2-b93b-364355b9aad1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "입항신고 할건데 어떤 순서",
+          "userDefined": false
+        },
+        {
+          "text": "로",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 해?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cc9c8100-ac33-4ddf-8033-b55650bd84cc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "출항 신고 순서",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c5913846-7aa4-4185-9f52-e27063b56a1b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "입항 신고 순서",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "aa59c912-185c-47d2-93f1-23f1dbf1e9c9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "입출항 신고할건데 순서 알려줘",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fc856ce7-0d6c-48ee-b4fd-5a57e6701632",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "입출항 순서",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "297c5e7c-bf3e-45d8-96b8-af9be8c4f4dc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "입출항 신고하고 싶은데 어떤 순서",
+          "userDefined": false
+        },
+        {
+          "text": "로",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 해?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "afe9e4a9-7c17-47a5-a109-e6114ef76b6c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "입출항 신고하려고 하는데 순서를 어떻게 해야하나요?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ada95664-8162-46ca-8bfa-82f1f97e889f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "입출항 신고는 어떤 순서",
+          "userDefined": false
+        },
+        {
+          "text": "로",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 해야하나요?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3fbd3d3f-157b-4232-934b-96f72411cfd5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "입출항 신고 순서",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "61546367-03a5-4225-bcce-103fa35ad606",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "입출항 신고",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "57668b0a-98ef-4f7d-9944-140197968dcc",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

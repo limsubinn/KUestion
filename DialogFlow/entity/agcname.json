@@ -1,0 +1,399 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "agcname",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "해양수산부",
+      "synonyms": [
+        "해양수산부"
+      ]
+    },
+    {
+      "value": "해양수산부-해양수산부",
+      "synonyms": [
+        "해양수산부-해양수산부"
+      ]
+    },
+    {
+      "value": "부산",
+      "synonyms": [
+        "부산"
+      ]
+    },
+    {
+      "value": "감천",
+      "synonyms": [
+        "감천"
+      ]
+    },
+    {
+      "value": "신항",
+      "synonyms": [
+        "신항"
+      ]
+    },
+    {
+      "value": "인천",
+      "synonyms": [
+        "인천"
+      ]
+    },
+    {
+      "value": "평택",
+      "synonyms": [
+        "평택"
+      ]
+    },
+    {
+      "value": "인천연안",
+      "synonyms": [
+        "인천연안"
+      ]
+    },
+    {
+      "value": "용기포항",
+      "synonyms": [
+        "용기포항"
+      ]
+    },
+    {
+      "value": "연평도항",
+      "synonyms": [
+        "연평도항"
+      ]
+    },
+    {
+      "value": "서울",
+      "synonyms": [
+        "서울"
+      ]
+    },
+    {
+      "value": "경인",
+      "synonyms": [
+        "경인"
+      ]
+    },
+    {
+      "value": "불개항-불개항청",
+      "synonyms": [
+        "불개항",
+        "불개항청"
+      ]
+    },
+    {
+      "value": "동해",
+      "synonyms": [
+        "동해"
+      ]
+    },
+    {
+      "value": "삼척",
+      "synonyms": [
+        "삼척"
+      ]
+    },
+    {
+      "value": "묵호",
+      "synonyms": [
+        "묵호"
+      ]
+    },
+    {
+      "value": "속초",
+      "synonyms": [
+        "속초"
+      ]
+    },
+    {
+      "value": "옥계",
+      "synonyms": [
+        "옥계"
+      ]
+    },
+    {
+      "value": "호산",
+      "synonyms": [
+        "호산"
+      ]
+    },
+    {
+      "value": "대산",
+      "synonyms": [
+        "대산"
+      ]
+    },
+    {
+      "value": "보령",
+      "synonyms": [
+        "보령"
+      ]
+    },
+    {
+      "value": "태안",
+      "synonyms": [
+        "태안"
+      ]
+    },
+    {
+      "value": "당진(화력)",
+      "synonyms": [
+        "당진",
+        "화력",
+        "당진화력"
+      ]
+    },
+    {
+      "value": "군산",
+      "synonyms": [
+        "군산"
+      ]
+    },
+    {
+      "value": "장항",
+      "synonyms": [
+        "장항"
+      ]
+    },
+    {
+      "value": "고정",
+      "synonyms": [
+        "고정"
+      ]
+    },
+    {
+      "value": "상왕등도항",
+      "synonyms": [
+        "상왕등도"
+      ]
+    },
+    {
+      "value": "흑산도항",
+      "synonyms": [
+        "흑산도"
+      ]
+    },
+    {
+      "value": "가거항리항",
+      "synonyms": [
+        "가거항리"
+      ]
+    },
+    {
+      "value": "목포",
+      "synonyms": [
+        "목포"
+      ]
+    },
+    {
+      "value": "완도",
+      "synonyms": [
+        "완도"
+      ]
+    },
+    {
+      "value": "대불분실",
+      "synonyms": [
+        "대불분실"
+      ]
+    },
+    {
+      "value": "북항분실",
+      "synonyms": [
+        "북항분실"
+      ]
+    },
+    {
+      "value": "여수",
+      "synonyms": [
+        "여수"
+      ]
+    },
+    {
+      "value": "여천",
+      "synonyms": [
+        "여천"
+      ]
+    },
+    {
+      "value": "광양",
+      "synonyms": [
+        "광양"
+      ]
+    },
+    {
+      "value": "월내",
+      "synonyms": [
+        "월내"
+      ]
+    },
+    {
+      "value": "중흥",
+      "synonyms": [
+        "중흥"
+      ]
+    },
+    {
+      "value": "거문도항",
+      "synonyms": [
+        "거문도"
+      ]
+    },
+    {
+      "value": "포항",
+      "synonyms": [
+        "포항"
+      ]
+    },
+    {
+      "value": "영일만",
+      "synonyms": [
+        "영일만"
+      ]
+    },
+    {
+      "value": "후포항",
+      "synonyms": [
+        "후포항"
+      ]
+    },
+    {
+      "value": "울릉항",
+      "synonyms": [
+        "울릉항"
+      ]
+    },
+    {
+      "value": "울릉사동",
+      "synonyms": [
+        "울릉사동"
+      ]
+    },
+    {
+      "value": "마산",
+      "synonyms": [
+        "마산"
+      ]
+    },
+    {
+      "value": "삼천포",
+      "synonyms": [
+        "삼천포"
+      ]
+    },
+    {
+      "value": "옥포",
+      "synonyms": [
+        "옥포"
+      ]
+    },
+    {
+      "value": "장승포",
+      "synonyms": [
+        "장승포"
+      ]
+    },
+    {
+      "value": "진해",
+      "synonyms": [
+        "진해"
+      ]
+    },
+    {
+      "value": "통영",
+      "synonyms": [
+        "통영"
+      ]
+    },
+    {
+      "value": "고현",
+      "synonyms": [
+        "고현"
+      ]
+    },
+    {
+      "value": "하동",
+      "synonyms": [
+        "하동"
+      ]
+    },
+    {
+      "value": "국도항",
+      "synonyms": [
+        "국도항"
+      ]
+    },
+    {
+      "value": "울산",
+      "synonyms": [
+        "울산"
+      ]
+    },
+    {
+      "value": "온산",
+      "synonyms": [
+        "온산"
+      ]
+    },
+    {
+      "value": "미포",
+      "synonyms": [
+        "미포"
+      ]
+    },
+    {
+      "value": "제주",
+      "synonyms": [
+        "제주"
+      ]
+    },
+    {
+      "value": "서귀포",
+      "synonyms": [
+        "서귀포"
+      ]
+    },
+    {
+      "value": "추자항",
+      "synonyms": [
+        "추자항"
+      ]
+    },
+    {
+      "value": "화순항",
+      "synonyms": [
+        "화순항"
+      ]
+    },
+    {
+      "value": "기타항-기타청",
+      "synonyms": [
+        "기타청"
+      ]
+    },
+    {
+      "value": "기타항-북한",
+      "synonyms": [
+        "북한"
+      ]
+    },
+    {
+      "value": "기타-통계기타항",
+      "synonyms": [
+        "통계기타항",
+        "통계기타"
+      ]
+    },
+    {
+      "value": "수산물품질관리원",
+      "synonyms": [
+        "수산물품질관리"
+      ]
+    }
+  ],
+  "id": "f09915d6-c294-450f-bd7a-0d67fbc912b9",
+  "isOverridable": false
+}

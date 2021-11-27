@@ -1,0 +1,137 @@
+{
+  "id": "d99c5237-b991-488d-843b-56e4d5bef976",
+  "name": "FAQ_고지서",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "지방해양수산청에서 고지서를 발부하지않은 상태로, 업무담당자의 처리 후 조회할 수 있습니다.\n항만공사에서 발부하는 고지서는 고지서출력(민원인)_BPA, YGPA에서 확인가능하며 이 메뉴 역시 항만공사 담당자가 발부하지않은 고지서는 조회되지 않습니다."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "고지서가 안보이는데 어떻게 해?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d76f7b74-23a5-4709-b7f1-d4697c704ab1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "고지서가 안보이는데 어떻게 해야하나요?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c0ca0883-cd6f-400f-a7d3-173c7151ccf4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "고지서출력 하고 싶은데 안보여요",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3629766b-6f42-4154-abaa-53194d597475",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "고지서 ",
+          "userDefined": false
+        },
+        {
+          "text": "안보임",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "28d0c86b-cd08-4880-ad12-e772dea737e6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "고지서가 안보여요",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "65512914-fa18-4e67-a748-caf55d1d52f7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "고지서출력 화면에서 고지서가 안보여요",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1000249e-7632-4944-a2ab-4e700ac8df4c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "고지서",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "출력",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "261bffec-0a76-4cdf-8117-a6baaf994dea",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

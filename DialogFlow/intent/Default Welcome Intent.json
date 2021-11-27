@@ -1,0 +1,191 @@
+{
+  "id": "7e5dc420-ba9a-4642-a4f7-e919ba9b52a0",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    },
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "actions_intent_SIGN_IN"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "안녕하세요! PORT-MIS 챗봇 포미입니다. 무엇을 도와드릴까요?",
+            "안녕하세요! 민원상담 챗봇 포미입니다. 무엇을 도와드릴까요?"
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "condition": "",
+          "payload": {}
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "하이",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "0dc627fd-6feb-4af5-ad14-c070783fa000",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "안녕하세요",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "698212b0-5514-4b53-88f3-0485af18b638",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "오랜만이야",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "48ccd108-ce1e-4b3e-a7e2-1dd9531bf45d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "안녕",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2c761dc7-8270-44e4-aedd-e9fda0f8f4db",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "저기",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4bc46f76-8beb-4e98-96a7-ba7984ba8232",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "잘 있었어",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f2875bab-7b96-4dce-b75c-164593735fe7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "반가워",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "626d305e-8532-437b-bfd5-6413c03536dc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "오랜만",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "79cae7a4-f8f3-41ad-ac3c-56236e39d387",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "어떻게 지냈어",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5e8ae90a-01e0-4a49-8ee3-312048343319",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "잘 지냈니",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d7d4eac2-7dbf-49ab-804e-d574cdc080ca",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "오늘 어때",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "037f200c-7b37-482a-b12b-f0bf409a57cb",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

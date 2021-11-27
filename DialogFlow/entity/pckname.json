@@ -1,0 +1,99 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "pckname",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "백(BAG)",
+      "synonyms": [
+        "백",
+        "BAG"
+      ]
+    },
+    {
+      "value": "포장하지 않음",
+      "synonyms": [
+        "포장하지 않음"
+      ]
+    },
+    {
+      "value": "상자",
+      "synonyms": [
+        "상자"
+      ]
+    },
+    {
+      "value": "깡통",
+      "synonyms": [
+        "깡통"
+      ]
+    },
+    {
+      "value": "운수업차량",
+      "synonyms": [
+        "운수업차량"
+      ]
+    },
+    {
+      "value": "컨테이너",
+      "synonyms": [
+        "컨테이너"
+      ]
+    },
+    {
+      "value": "코일",
+      "synonyms": [
+        "코일"
+      ]
+    },
+    {
+      "value": "드럼",
+      "synonyms": [
+        "드럼"
+      ]
+    },
+    {
+      "value": "통나무",
+      "synonyms": [
+        "통나무"
+      ]
+    },
+    {
+      "value": "통/용기(액체)",
+      "synonyms": [
+        "통",
+        "용기",
+        "액체",
+        "액체용기"
+      ]
+    },
+    {
+      "value": "꾸러미",
+      "synonyms": [
+        "꾸러미"
+      ]
+    },
+    {
+      "value": "ROLL",
+      "synonyms": [
+        "ROLL"
+      ]
+    },
+    {
+      "value": "탱크",
+      "synonyms": [
+        "탱크"
+      ]
+    },
+    {
+      "value": "기타",
+      "synonyms": [
+        "기타"
+      ]
+    }
+  ],
+  "id": "5ccecd67-3807-4c4b-8929-23ae02e40b04",
+  "isOverridable": false
+}

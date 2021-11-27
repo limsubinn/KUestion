@@ -1,0 +1,353 @@
+{
+  "id": "42d978e9-0283-43ed-8a27-a5b7b61defbc",
+  "name": "FAQ_정보변경",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "공지사항에 [항만관련업체(신규/변경) 신청서]에 있는 서식을 다운받아 작성 한 후, 공지사항에 있는 팩스번호로 작성한 서식 1부, 사업자등록증 1부를 보내면 운영팀에서 변경해드립니다."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "사업자 소재지 어떻게 ",
+          "userDefined": false
+        },
+        {
+          "text": "변경",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "하나요?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ca336922-a9a7-466e-9ca0-b7f71352599d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "사업자 소재지 ",
+          "userDefined": false
+        },
+        {
+          "text": "변경",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "하고 싶어요",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0efe0a81-79b0-45cb-aece-6ff72dce6826",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "사업장 소재지 ",
+          "userDefined": false
+        },
+        {
+          "text": "변경",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "하는 방법",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c7985080-d468-48a6-bc37-6785579e6da2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "대표자 어떻게 ",
+          "userDefined": false
+        },
+        {
+          "text": "변경",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "하나요?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b7afd5fc-021e-48f6-ae3e-cda5aa48ff52",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "대표자 ",
+          "userDefined": false
+        },
+        {
+          "text": "변경",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "하고 싶어요",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "98d6dbeb-b13c-4aca-8924-76fa8febcd7c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "대표자 ",
+          "userDefined": false
+        },
+        {
+          "text": "변경",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "하는 방법",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "71bd227e-0396-401d-9bc6-7bce0d416d50",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "업체명 어떻게 ",
+          "userDefined": false
+        },
+        {
+          "text": "변경",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "하나요?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7bc79d33-11b0-4259-82c5-f8b6caa0e92b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "업체명 ",
+          "userDefined": false
+        },
+        {
+          "text": "변경",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "하고 싶어요",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bc58ae10-fda8-4933-bf25-53e942ba1a1e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "업체명 ",
+          "userDefined": false
+        },
+        {
+          "text": "변경",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "하는 방법",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "085dad94-dad8-4b93-8357-7bdd47813182",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "정보",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "변경",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "하는 법",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6a6b51be-df9c-4508-b3b2-8bdc91cd5462",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "사업장 소재지 ",
+          "userDefined": false
+        },
+        {
+          "text": "변경",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "92d62d07-1eb5-402d-b421-f1888620c27f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "대표자 ",
+          "userDefined": false
+        },
+        {
+          "text": "변경",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "c6a55872-89a4-45f5-a597-97b5e8f30a9f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "업체명 ",
+          "userDefined": false
+        },
+        {
+          "text": "변경",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "06aef354-9dd6-466d-9742-ad4ec2f614d0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "업체명, 대표자, 사업장 소재지 등의 ",
+          "userDefined": false
+        },
+        {
+          "text": "정보",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "는 어떻게 ",
+          "userDefined": false
+        },
+        {
+          "text": "변경",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "해야하나요?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7ba8915a-234d-4ac6-b3ac-8a8d52c90b33",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

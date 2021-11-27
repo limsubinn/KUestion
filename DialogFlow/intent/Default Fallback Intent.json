@@ -1,0 +1,45 @@
+{
+  "id": "13c17aac-d8ee-49d4-a895-2d2967dcad20",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": true,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "마지막에 말씀을 잘 못 이해 한것 같아요.",
+            "방금 하신 말씀을 잘 못 알아들었어요.",
+            "죄송해요. 다시 들려 주실래요?",
+            "제가 제대로 이해하고 있는지 잘 모르겠어요.",
+            "제가 제대로 이해하지 못한것 같아요. 죄송해요.",
+            "조금 헷갈리는데요."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

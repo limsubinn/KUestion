@@ -1,0 +1,239 @@
+{
+  "id": "a298a2bb-e87c-4e6d-a949-d87c73c1a97f",
+  "name": "FAQ_입항횟수",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "첫째 칸은 년도, 두번째 칸은 입항횟수, 세번째 칸은 해당 입항횟수에서의 항만시설 이용횟수를 입력합니다.\n예를 들어 봉래동 물량장에서 신선대부두로 이동했다면, 선석 이용횟수는 2회로, 001, 002 2번 신고를 해야합니다."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "항만",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "시설",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "사용",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 신청할 때 입항횟수 입력하는 방법",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "97b4bb44-a627-4e0b-bd63-ef69905e4258",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "항만",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "시설",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "사용",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "신청",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 입항횟수 입력 방법",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "20d85461-18f5-4f74-8212-5af53e800459",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "항만",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "시설",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "사용",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "신청",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 입항횟수 어떻게 입력하나요?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8cea2fd0-46e9-4afc-ba4f-a512cdd8d700",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "입항횟수 어떻게 입력하나요?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2b580249-d118-4dc8-af27-8604f9e5c910",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "입항횟수 입력하는 방법",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f27e0ce0-c14b-4ebc-ab1c-8aeb99dce642",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "항만",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "시설",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "사용",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "신청",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 화면의 입항횟수 입력란",
+          "userDefined": false
+        },
+        {
+          "text": "은",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "3",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "칸",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "인데",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 어떻게 입력해야하나요?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1cdf755b-6b58-4975-956a-7bea43ce7ccb",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

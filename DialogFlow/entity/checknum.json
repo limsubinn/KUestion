@@ -1,0 +1,125 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "checknum",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "2020-002",
+      "synonyms": [
+        "2020-002"
+      ]
+    },
+    {
+      "value": "2020-001",
+      "synonyms": [
+        "2020-001"
+      ]
+    },
+    {
+      "value": "2019-002",
+      "synonyms": [
+        "2019-002"
+      ]
+    },
+    {
+      "value": "2019-001",
+      "synonyms": [
+        "2019-001"
+      ]
+    },
+    {
+      "value": "2018-002",
+      "synonyms": [
+        "2018-002"
+      ]
+    },
+    {
+      "value": "2018-001",
+      "synonyms": [
+        "2018-001"
+      ]
+    },
+    {
+      "value": "2017-001",
+      "synonyms": [
+        "2017-001"
+      ]
+    },
+    {
+      "value": "2016-003",
+      "synonyms": [
+        "2016-003"
+      ]
+    },
+    {
+      "value": "2016-002",
+      "synonyms": [
+        "2016-002"
+      ]
+    },
+    {
+      "value": "2015-004",
+      "synonyms": [
+        "2015-004"
+      ]
+    },
+    {
+      "value": "2015-003",
+      "synonyms": [
+        "2015-003"
+      ]
+    },
+    {
+      "value": "2015-001",
+      "synonyms": [
+        "2015-001"
+      ]
+    },
+    {
+      "value": "2014-001",
+      "synonyms": [
+        "2014-001"
+      ]
+    },
+    {
+      "value": "2012-05",
+      "synonyms": [
+        "2012-05"
+      ]
+    },
+    {
+      "value": "2012-04",
+      "synonyms": [
+        "2012-04"
+      ]
+    },
+    {
+      "value": "2012-02",
+      "synonyms": [
+        "2012-02"
+      ]
+    },
+    {
+      "value": "2012-01",
+      "synonyms": [
+        "2012-01"
+      ]
+    },
+    {
+      "value": "2011-02",
+      "synonyms": [
+        "2011-02"
+      ]
+    },
+    {
+      "value": "2006-01",
+      "synonyms": [
+        "2006-01"
+      ]
+    }
+  ],
+  "id": "7faa24ac-624f-4083-a2a1-e118f13be29c",
+  "isOverridable": false
+}

@@ -1,0 +1,1525 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "ctrname",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "바하마",
+      "synonyms": [
+        "바하마"
+      ]
+    },
+    {
+      "value": "부탄",
+      "synonyms": [
+        "부탄"
+      ]
+    },
+    {
+      "value": "예멘",
+      "synonyms": [
+        "예멘"
+      ]
+    },
+    {
+      "value": "보츠와나",
+      "synonyms": [
+        "보츠와나"
+      ]
+    },
+    {
+      "value": "벨라루스",
+      "synonyms": [
+        "벨라루스"
+      ]
+    },
+    {
+      "value": "벨리즈",
+      "synonyms": [
+        "벨리즈"
+      ]
+    },
+    {
+      "value": "캐나다",
+      "synonyms": [
+        "캐나다"
+      ]
+    },
+    {
+      "value": "코코스  제도",
+      "synonyms": [
+        "코코스  제도"
+      ]
+    },
+    {
+      "value": "콩고  민주  공화국",
+      "synonyms": [
+        "콩고  민주  공화국",
+        "콩고"
+      ]
+    },
+    {
+      "value": "중앙아프리카  공화국",
+      "synonyms": [
+        "중앙아프리카  공화국",
+        "중앙아프리카"
+      ]
+    },
+    {
+      "value": "콩고",
+      "synonyms": [
+        "콩고"
+      ]
+    },
+    {
+      "value": "스위스",
+      "synonyms": [
+        "스위스"
+      ]
+    },
+    {
+      "value": "코트디부아르",
+      "synonyms": [
+        "코트디부아르"
+      ]
+    },
+    {
+      "value": "쿡  제도",
+      "synonyms": [
+        "쿡  제도"
+      ]
+    },
+    {
+      "value": "칠레",
+      "synonyms": [
+        "칠레"
+      ]
+    },
+    {
+      "value": "카메룬",
+      "synonyms": [
+        "카메룬"
+      ]
+    },
+    {
+      "value": "중국",
+      "synonyms": [
+        "중국"
+      ]
+    },
+    {
+      "value": "콜롬비아",
+      "synonyms": [
+        "콜롬비아"
+      ]
+    },
+    {
+      "value": "코스타리카",
+      "synonyms": [
+        "코스타리카"
+      ]
+    },
+    {
+      "value": "세르비아  몬테네그로",
+      "synonyms": [
+        "세르비아  몬테네그로",
+        "세르비아"
+      ]
+    },
+    {
+      "value": "쿠바",
+      "synonyms": [
+        "쿠바"
+      ]
+    },
+    {
+      "value": "카보  베르데",
+      "synonyms": [
+        "카보  베르데"
+      ]
+    },
+    {
+      "value": "큐라소",
+      "synonyms": [
+        "큐라소"
+      ]
+    },
+    {
+      "value": "크리스마스섬",
+      "synonyms": [
+        "크리스마스섬"
+      ]
+    },
+    {
+      "value": "키프로스",
+      "synonyms": [
+        "키프로스"
+      ]
+    },
+    {
+      "value": "체코",
+      "synonyms": [
+        "체코"
+      ]
+    },
+    {
+      "value": "독일",
+      "synonyms": [
+        "독일"
+      ]
+    },
+    {
+      "value": "지부티",
+      "synonyms": [
+        "지부티"
+      ]
+    },
+    {
+      "value": "덴마크",
+      "synonyms": [
+        "덴마크"
+      ]
+    },
+    {
+      "value": "도미니카  연방",
+      "synonyms": [
+        "도미니카  연방"
+      ]
+    },
+    {
+      "value": "도미니카  공화국",
+      "synonyms": [
+        "도미니카  공화국"
+      ]
+    },
+    {
+      "value": "알제리",
+      "synonyms": [
+        "알제리"
+      ]
+    },
+    {
+      "value": "에콰도르",
+      "synonyms": [
+        "에콰도르"
+      ]
+    },
+    {
+      "value": "홍콩",
+      "synonyms": [
+        "홍콩"
+      ]
+    },
+    {
+      "value": "허드  맥도널드  제도",
+      "synonyms": [
+        "허드  맥도널드  제도"
+      ]
+    },
+    {
+      "value": "온두라스",
+      "synonyms": [
+        "온두라스"
+      ]
+    },
+    {
+      "value": "크로아티아",
+      "synonyms": [
+        "크로아티아"
+      ]
+    },
+    {
+      "value": "아이티",
+      "synonyms": [
+        "아이티"
+      ]
+    },
+    {
+      "value": "헝가리",
+      "synonyms": [
+        "헝가리"
+      ]
+    },
+    {
+      "value": "인도네시아",
+      "synonyms": [
+        "인도네시아"
+      ]
+    },
+    {
+      "value": "아일랜드",
+      "synonyms": [
+        "아일랜드"
+      ]
+    },
+    {
+      "value": "이스라엘",
+      "synonyms": [
+        "이스라엘"
+      ]
+    },
+    {
+      "value": "맨섬",
+      "synonyms": [
+        "맨섬"
+      ]
+    },
+    {
+      "value": "인도",
+      "synonyms": [
+        "인도"
+      ]
+    },
+    {
+      "value": "영국령  인도양  지역",
+      "synonyms": [
+        "영국령  인도양"
+      ]
+    },
+    {
+      "value": "이라크",
+      "synonyms": [
+        "이라크"
+      ]
+    },
+    {
+      "value": "이란",
+      "synonyms": [
+        "이란"
+      ]
+    },
+    {
+      "value": "아이슬란드",
+      "synonyms": [
+        "아이슬란드"
+      ]
+    },
+    {
+      "value": "이탈리아",
+      "synonyms": [
+        "이탈리아"
+      ]
+    },
+    {
+      "value": "저지",
+      "synonyms": [
+        "저지"
+      ]
+    },
+    {
+      "value": "자메이카",
+      "synonyms": [
+        "자메이카"
+      ]
+    },
+    {
+      "value": "요르단",
+      "synonyms": [
+        "요르단"
+      ]
+    },
+    {
+      "value": "일본",
+      "synonyms": [
+        "일본"
+      ]
+    },
+    {
+      "value": "케냐",
+      "synonyms": [
+        "케냐"
+      ]
+    },
+    {
+      "value": "키르기스스탄",
+      "synonyms": [
+        "키르기스스탄"
+      ]
+    },
+    {
+      "value": "캄보디아",
+      "synonyms": [
+        "캄보디아"
+      ]
+    },
+    {
+      "value": "키리바시",
+      "synonyms": [
+        "키리바시"
+      ]
+    },
+    {
+      "value": "코모로",
+      "synonyms": [
+        "코모로"
+      ]
+    },
+    {
+      "value": "세인트키츠  네비스",
+      "synonyms": [
+        "세인트키츠  네비스"
+      ]
+    },
+    {
+      "value": "북한",
+      "synonyms": [
+        "북한"
+      ]
+    },
+    {
+      "value": "대한민국",
+      "synonyms": [
+        "한국"
+      ]
+    },
+    {
+      "value": "쿠웨이트",
+      "synonyms": [
+        "쿠웨이트"
+      ]
+    },
+    {
+      "value": "케이맨  제도",
+      "synonyms": [
+        "케이맨  제도"
+      ]
+    },
+    {
+      "value": "카자흐스탄",
+      "synonyms": [
+        "카자흐스탄"
+      ]
+    },
+    {
+      "value": "말레이시아",
+      "synonyms": [
+        "말레이시아"
+      ]
+    },
+    {
+      "value": "모잠비크",
+      "synonyms": [
+        "모잠비크"
+      ]
+    },
+    {
+      "value": "나미비아",
+      "synonyms": [
+        "나미비아"
+      ]
+    },
+    {
+      "value": "뉴칼레도니아",
+      "synonyms": [
+        "뉴칼레도니아"
+      ]
+    },
+    {
+      "value": "니제르",
+      "synonyms": [
+        "니제르"
+      ]
+    },
+    {
+      "value": "노퍽섬",
+      "synonyms": [
+        "노퍽섬"
+      ]
+    },
+    {
+      "value": "나이지리아",
+      "synonyms": [
+        "나이지리아"
+      ]
+    },
+    {
+      "value": "니카라과",
+      "synonyms": [
+        "니카라과"
+      ]
+    },
+    {
+      "value": "네덜란드",
+      "synonyms": [
+        "네덜란드"
+      ]
+    },
+    {
+      "value": "노르웨이",
+      "synonyms": [
+        "노르웨이"
+      ]
+    },
+    {
+      "value": "네팔",
+      "synonyms": [
+        "네팔"
+      ]
+    },
+    {
+      "value": "나우루",
+      "synonyms": [
+        "나우루"
+      ]
+    },
+    {
+      "value": "니우에",
+      "synonyms": [
+        "니우에"
+      ]
+    },
+    {
+      "value": "뉴질랜드",
+      "synonyms": [
+        "뉴질랜드"
+      ]
+    },
+    {
+      "value": "원양어획지역",
+      "synonyms": [
+        "원양어획지역"
+      ]
+    },
+    {
+      "value": "오만",
+      "synonyms": [
+        "오만"
+      ]
+    },
+    {
+      "value": "파나마",
+      "synonyms": [
+        "파나마"
+      ]
+    },
+    {
+      "value": "페루",
+      "synonyms": [
+        "페루"
+      ]
+    },
+    {
+      "value": "프랑스령  폴리네시아",
+      "synonyms": [
+        "프랑스령  폴리네시아"
+      ]
+    },
+    {
+      "value": "파푸아  뉴기니",
+      "synonyms": [
+        "파푸아  뉴기니"
+      ]
+    },
+    {
+      "value": "필리핀",
+      "synonyms": [
+        "필리핀"
+      ]
+    },
+    {
+      "value": "파키스탄",
+      "synonyms": [
+        "파키스탄"
+      ]
+    },
+    {
+      "value": "폴란드",
+      "synonyms": [
+        "폴란드"
+      ]
+    },
+    {
+      "value": "생피에르  미클롱",
+      "synonyms": [
+        "생피에르  미클롱"
+      ]
+    },
+    {
+      "value": "핏케언  제도",
+      "synonyms": [
+        "핏케언  제도"
+      ]
+    },
+    {
+      "value": "푸에르토리코",
+      "synonyms": [
+        "푸에르토리코"
+      ]
+    },
+    {
+      "value": "팔레스타인",
+      "synonyms": [
+        "팔레스타인"
+      ]
+    },
+    {
+      "value": "포르투갈",
+      "synonyms": [
+        "포르투갈"
+      ]
+    },
+    {
+      "value": "팔라우",
+      "synonyms": [
+        "팔라우"
+      ]
+    },
+    {
+      "value": "파라과이",
+      "synonyms": [
+        "파라과이"
+      ]
+    },
+    {
+      "value": "카타르",
+      "synonyms": [
+        "카타르"
+      ]
+    },
+    {
+      "value": "레위니옹",
+      "synonyms": [
+        "레위니옹"
+      ]
+    },
+    {
+      "value": "투르크메니스탄",
+      "synonyms": [
+        "투르크메니스탄"
+      ]
+    },
+    {
+      "value": "튀니지",
+      "synonyms": [
+        "튀니지"
+      ]
+    },
+    {
+      "value": "통가",
+      "synonyms": [
+        "통가"
+      ]
+    },
+    {
+      "value": "터키",
+      "synonyms": [
+        "터키"
+      ]
+    },
+    {
+      "value": "트리니다드  토바고",
+      "synonyms": [
+        "트리니다드  토바고"
+      ]
+    },
+    {
+      "value": "투발루",
+      "synonyms": [
+        "투발루"
+      ]
+    },
+    {
+      "value": "중화민국",
+      "synonyms": [
+        "중화민국"
+      ]
+    },
+    {
+      "value": "탄자니아",
+      "synonyms": [
+        "탄자니아"
+      ]
+    },
+    {
+      "value": "우크라이나",
+      "synonyms": [
+        "우크라이나"
+      ]
+    },
+    {
+      "value": "우간다",
+      "synonyms": [
+        "우간다"
+      ]
+    },
+    {
+      "value": "아우트라잉  군도",
+      "synonyms": [
+        "아우트라잉  군도"
+      ]
+    },
+    {
+      "value": "미국",
+      "synonyms": [
+        "미국"
+      ]
+    },
+    {
+      "value": "우루과이",
+      "synonyms": [
+        "우루과이"
+      ]
+    },
+    {
+      "value": "우즈베키스탄",
+      "synonyms": [
+        "우즈베키스탄"
+      ]
+    },
+    {
+      "value": "바티칸",
+      "synonyms": [
+        "바티칸"
+      ]
+    },
+    {
+      "value": "세인트  빈센트  그레나딘",
+      "synonyms": [
+        "세인트  빈센트  그레나딘"
+      ]
+    },
+    {
+      "value": "베네수엘라",
+      "synonyms": [
+        "베네수엘라"
+      ]
+    },
+    {
+      "value": "영국령  버진아일랜드",
+      "synonyms": [
+        "영국령  버진아일랜드"
+      ]
+    },
+    {
+      "value": "미국령  버진아일랜드",
+      "synonyms": [
+        "미국령  버진아일랜드"
+      ]
+    },
+    {
+      "value": "베트남",
+      "synonyms": [
+        "베트남"
+      ]
+    },
+    {
+      "value": "바누아투",
+      "synonyms": [
+        "바누아투"
+      ]
+    },
+    {
+      "value": "왈리스  푸투나",
+      "synonyms": [
+        "왈리스  푸투나"
+      ]
+    },
+    {
+      "value": "서사모아",
+      "synonyms": [
+        "서사모아"
+      ]
+    },
+    {
+      "value": "국제  지역",
+      "synonyms": [
+        "국제  지역"
+      ]
+    },
+    {
+      "value": "마요트",
+      "synonyms": [
+        "마요트"
+      ]
+    },
+    {
+      "value": "남아프리카",
+      "synonyms": [
+        "남아프리카"
+      ]
+    },
+    {
+      "value": "잠비아",
+      "synonyms": [
+        "잠비아"
+      ]
+    },
+    {
+      "value": "짐바브웨",
+      "synonyms": [
+        "짐바브웨"
+      ]
+    },
+    {
+      "value": "기타국가",
+      "synonyms": [
+        "기타국가"
+      ]
+    },
+    {
+      "value": "안도라",
+      "synonyms": [
+        "안도라"
+      ]
+    },
+    {
+      "value": "아랍에미리트연합국",
+      "synonyms": [
+        "아랍에미리트연합국"
+      ]
+    },
+    {
+      "value": "아프가니스탄",
+      "synonyms": [
+        "아프가니스탄"
+      ]
+    },
+    {
+      "value": "앤티가  바부다",
+      "synonyms": [
+        "앤티가  바부다"
+      ]
+    },
+    {
+      "value": "앵귈라",
+      "synonyms": [
+        "앵귈라"
+      ]
+    },
+    {
+      "value": "알바니아",
+      "synonyms": [
+        "알바니아"
+      ]
+    },
+    {
+      "value": "아르메니아",
+      "synonyms": [
+        "아르메니아"
+      ]
+    },
+    {
+      "value": "앤틸리스제도",
+      "synonyms": [
+        "앤틸리스제도"
+      ]
+    },
+    {
+      "value": "앙골라",
+      "synonyms": [
+        "앙골라"
+      ]
+    },
+    {
+      "value": "안타티카",
+      "synonyms": [
+        "안타티카"
+      ]
+    },
+    {
+      "value": "아르헨티나",
+      "synonyms": [
+        "아르헨티나"
+      ]
+    },
+    {
+      "value": "아메리칸사모아",
+      "synonyms": [
+        "아메리칸사모아"
+      ]
+    },
+    {
+      "value": "오스트리아",
+      "synonyms": [
+        "오스트리아"
+      ]
+    },
+    {
+      "value": "호주",
+      "synonyms": [
+        "호주"
+      ]
+    },
+    {
+      "value": "아루바",
+      "synonyms": [
+        "아루바"
+      ]
+    },
+    {
+      "value": "올란드  제도",
+      "synonyms": [
+        "올란드  제도"
+      ]
+    },
+    {
+      "value": "아제르바이잔",
+      "synonyms": [
+        "아제르바이잔"
+      ]
+    },
+    {
+      "value": "보스니아  헤르체고비나",
+      "synonyms": [
+        "보스니아  헤르체고비나"
+      ]
+    },
+    {
+      "value": "바베이도스",
+      "synonyms": [
+        "바베이도스"
+      ]
+    },
+    {
+      "value": "방글라데시",
+      "synonyms": [
+        "방글라데시"
+      ]
+    },
+    {
+      "value": "벨기에",
+      "synonyms": [
+        "벨기에"
+      ]
+    },
+    {
+      "value": "부르키나파소",
+      "synonyms": [
+        "부르키나파소"
+      ]
+    },
+    {
+      "value": "불가리아",
+      "synonyms": [
+        "불가리아"
+      ]
+    },
+    {
+      "value": "바레인",
+      "synonyms": [
+        "바레인"
+      ]
+    },
+    {
+      "value": "부룬디",
+      "synonyms": [
+        "부룬디"
+      ]
+    },
+    {
+      "value": "베냉",
+      "synonyms": [
+        "베냉"
+      ]
+    },
+    {
+      "value": "생바르텔레미",
+      "synonyms": [
+        "생바르텔레미"
+      ]
+    },
+    {
+      "value": "버뮤다",
+      "synonyms": [
+        "버뮤다"
+      ]
+    },
+    {
+      "value": "브루나이",
+      "synonyms": [
+        "브루나이"
+      ]
+    },
+    {
+      "value": "볼리비아",
+      "synonyms": [
+        "볼리비아"
+      ]
+    },
+    {
+      "value": "브라질",
+      "synonyms": [
+        "브라질"
+      ]
+    },
+    {
+      "value": "에스토니아",
+      "synonyms": [
+        "에스토니아"
+      ]
+    },
+    {
+      "value": "이집트",
+      "synonyms": [
+        "이집트"
+      ]
+    },
+    {
+      "value": "서사하라",
+      "synonyms": [
+        "서사하라"
+      ]
+    },
+    {
+      "value": "에리트레아",
+      "synonyms": [
+        "에리트레아"
+      ]
+    },
+    {
+      "value": "스페인",
+      "synonyms": [
+        "스페인"
+      ]
+    },
+    {
+      "value": "에티오피아",
+      "synonyms": [
+        "에티오피아"
+      ]
+    },
+    {
+      "value": "핀란드",
+      "synonyms": [
+        "핀란드"
+      ]
+    },
+    {
+      "value": "피지",
+      "synonyms": [
+        "피지"
+      ]
+    },
+    {
+      "value": "포클랜드  제도 (말바나스  군도)",
+      "synonyms": [
+        "포클랜드  제도 (말바나스  군도)",
+        "포클랜드 제도",
+        "말바나스 군도",
+        "포클랜드",
+        "말바나스"
+      ]
+    },
+    {
+      "value": "미크로네시아",
+      "synonyms": [
+        "미크로네시아"
+      ]
+    },
+    {
+      "value": "페로  제도",
+      "synonyms": [
+        "페로  제도"
+      ]
+    },
+    {
+      "value": "프랑스",
+      "synonyms": [
+        "프랑스"
+      ]
+    },
+    {
+      "value": "가봉",
+      "synonyms": [
+        "가봉"
+      ]
+    },
+    {
+      "value": "영국",
+      "synonyms": [
+        "영국"
+      ]
+    },
+    {
+      "value": "그레나다",
+      "synonyms": [
+        "그레나다"
+      ]
+    },
+    {
+      "value": "조지아",
+      "synonyms": [
+        "조지아"
+      ]
+    },
+    {
+      "value": "프랑스령  기아나",
+      "synonyms": [
+        "프랑스령  기아나"
+      ]
+    },
+    {
+      "value": "건지섬",
+      "synonyms": [
+        "건지섬"
+      ]
+    },
+    {
+      "value": "가나",
+      "synonyms": [
+        "가나"
+      ]
+    },
+    {
+      "value": "지브롤터",
+      "synonyms": [
+        "지브롤터"
+      ]
+    },
+    {
+      "value": "그린란드",
+      "synonyms": [
+        "그린란드"
+      ]
+    },
+    {
+      "value": "감비아",
+      "synonyms": [
+        "감비아"
+      ]
+    },
+    {
+      "value": "기니",
+      "synonyms": [
+        "기니"
+      ]
+    },
+    {
+      "value": "과들루프",
+      "synonyms": [
+        "과들루프"
+      ]
+    },
+    {
+      "value": "적도  기니",
+      "synonyms": [
+        "적도  기니"
+      ]
+    },
+    {
+      "value": "그리스",
+      "synonyms": [
+        "그리스"
+      ]
+    },
+    {
+      "value": "남조지아  군도",
+      "synonyms": [
+        "남조지아  군도",
+        "남조지아"
+      ]
+    },
+    {
+      "value": "과테말라",
+      "synonyms": [
+        "과테말라"
+      ]
+    },
+    {
+      "value": "괌",
+      "synonyms": [
+        "괌"
+      ]
+    },
+    {
+      "value": "기니비사우",
+      "synonyms": [
+        "기니비사우"
+      ]
+    },
+    {
+      "value": "가이아나",
+      "synonyms": [
+        "가이아나"
+      ]
+    },
+    {
+      "value": "라오스",
+      "synonyms": [
+        "라오스"
+      ]
+    },
+    {
+      "value": "레바논",
+      "synonyms": [
+        "레바논"
+      ]
+    },
+    {
+      "value": "세인트루시아",
+      "synonyms": [
+        "세인트루시아"
+      ]
+    },
+    {
+      "value": "리히텐슈타인",
+      "synonyms": [
+        "리히텐슈타인"
+      ]
+    },
+    {
+      "value": "스리랑카",
+      "synonyms": [
+        "스리랑카"
+      ]
+    },
+    {
+      "value": "라이베리아",
+      "synonyms": [
+        "라이베리아"
+      ]
+    },
+    {
+      "value": "레소토",
+      "synonyms": [
+        "레소토"
+      ]
+    },
+    {
+      "value": "리투아니아",
+      "synonyms": [
+        "리투아니아"
+      ]
+    },
+    {
+      "value": "룩셈부르크",
+      "synonyms": [
+        "룩셈부르크"
+      ]
+    },
+    {
+      "value": "라트비아",
+      "synonyms": [
+        "라트비아"
+      ]
+    },
+    {
+      "value": "리비아",
+      "synonyms": [
+        "리비아"
+      ]
+    },
+    {
+      "value": "모로코",
+      "synonyms": [
+        "모로코"
+      ]
+    },
+    {
+      "value": "모나코",
+      "synonyms": [
+        "모나코"
+      ]
+    },
+    {
+      "value": "몰도바",
+      "synonyms": [
+        "몰도바"
+      ]
+    },
+    {
+      "value": "몬테네그로",
+      "synonyms": [
+        "몬테네그로"
+      ]
+    },
+    {
+      "value": "세인트마틴섬  프랑스령",
+      "synonyms": [
+        "세인트마틴섬  프랑스령"
+      ]
+    },
+    {
+      "value": "마다가스카르",
+      "synonyms": [
+        "마다가스카르"
+      ]
+    },
+    {
+      "value": "마샬  제도",
+      "synonyms": [
+        "마샬  제도"
+      ]
+    },
+    {
+      "value": "마케도니아",
+      "synonyms": [
+        "마케도니아"
+      ]
+    },
+    {
+      "value": "말리",
+      "synonyms": [
+        "말리"
+      ]
+    },
+    {
+      "value": "미얀마",
+      "synonyms": [
+        "미얀마"
+      ]
+    },
+    {
+      "value": "몽골",
+      "synonyms": [
+        "몽골"
+      ]
+    },
+    {
+      "value": "마카오",
+      "synonyms": [
+        "마카오"
+      ]
+    },
+    {
+      "value": "북마리아나  제도",
+      "synonyms": [
+        "북마리아나  제도"
+      ]
+    },
+    {
+      "value": "마르티니크",
+      "synonyms": [
+        "마르티니크"
+      ]
+    },
+    {
+      "value": "모리타니",
+      "synonyms": [
+        "모리타니"
+      ]
+    },
+    {
+      "value": "몬트세랫",
+      "synonyms": [
+        "몬트세랫"
+      ]
+    },
+    {
+      "value": "몰타",
+      "synonyms": [
+        "몰타"
+      ]
+    },
+    {
+      "value": "모리셔스",
+      "synonyms": [
+        "모리셔스"
+      ]
+    },
+    {
+      "value": "몰디브",
+      "synonyms": [
+        "몰디브"
+      ]
+    },
+    {
+      "value": "말라위",
+      "synonyms": [
+        "말라위"
+      ]
+    },
+    {
+      "value": "멕시코",
+      "synonyms": [
+        "멕시코"
+      ]
+    },
+    {
+      "value": "루마니아",
+      "synonyms": [
+        "루마니아"
+      ]
+    },
+    {
+      "value": "세르비아",
+      "synonyms": [
+        "세르비아"
+      ]
+    },
+    {
+      "value": "러시아",
+      "synonyms": [
+        "러시아"
+      ]
+    },
+    {
+      "value": "르완다",
+      "synonyms": [
+        "르완다"
+      ]
+    },
+    {
+      "value": "사우디아라비아",
+      "synonyms": [
+        "사우디아라비아"
+      ]
+    },
+    {
+      "value": "솔로몬제도",
+      "synonyms": [
+        "솔로몬제도"
+      ]
+    },
+    {
+      "value": "세이셸",
+      "synonyms": [
+        "세이셸"
+      ]
+    },
+    {
+      "value": "수단",
+      "synonyms": [
+        "수단"
+      ]
+    },
+    {
+      "value": "스웨덴",
+      "synonyms": [
+        "스웨덴"
+      ]
+    },
+    {
+      "value": "싱가포르",
+      "synonyms": [
+        "싱가포르"
+      ]
+    },
+    {
+      "value": "세인트헬레나",
+      "synonyms": [
+        "세인트헬레나"
+      ]
+    },
+    {
+      "value": "슬로베니아",
+      "synonyms": [
+        "슬로베니아"
+      ]
+    },
+    {
+      "value": "스발바르  얀마옌  제도",
+      "synonyms": [
+        "스발바르  얀마옌  제도"
+      ]
+    },
+    {
+      "value": "슬로바키아",
+      "synonyms": [
+        "슬로바키아"
+      ]
+    },
+    {
+      "value": "시에라  리온",
+      "synonyms": [
+        "시에라  리온"
+      ]
+    },
+    {
+      "value": "산  마리노",
+      "synonyms": [
+        "산  마리노"
+      ]
+    },
+    {
+      "value": "세네갈",
+      "synonyms": [
+        "세네갈"
+      ]
+    },
+    {
+      "value": "소말리아",
+      "synonyms": [
+        "소말리아"
+      ]
+    },
+    {
+      "value": "수리남",
+      "synonyms": [
+        "수리남"
+      ]
+    },
+    {
+      "value": "상투메  프린시페",
+      "synonyms": [
+        "상투메  프린시페"
+      ]
+    },
+    {
+      "value": "엘살바도르",
+      "synonyms": [
+        "엘살바도르"
+      ]
+    },
+    {
+      "value": "신트마르턴",
+      "synonyms": [
+        "신트마르턴"
+      ]
+    },
+    {
+      "value": "시리아",
+      "synonyms": [
+        "시리아"
+      ]
+    },
+    {
+      "value": "스와질란드",
+      "synonyms": [
+        "스와질란드"
+      ]
+    },
+    {
+      "value": "터크스  케이커스  제도",
+      "synonyms": [
+        "터크스  케이커스  제도"
+      ]
+    },
+    {
+      "value": "차드",
+      "synonyms": [
+        "차드"
+      ]
+    },
+    {
+      "value": "프랑스  남부영토",
+      "synonyms": [
+        "프랑스  남부영토"
+      ]
+    },
+    {
+      "value": "토고",
+      "synonyms": [
+        "토고"
+      ]
+    },
+    {
+      "value": "태국",
+      "synonyms": [
+        "태국"
+      ]
+    },
+    {
+      "value": "타지키스탄",
+      "synonyms": [
+        "타지키스탄"
+      ]
+    },
+    {
+      "value": "토켈라우",
+      "synonyms": [
+        "토켈라우"
+      ]
+    },
+    {
+      "value": "동티모르",
+      "synonyms": [
+        "동티모르"
+      ]
+    }
+  ],
+  "id": "6907d7b6-3d27-409a-b060-c07ee2612969",
+  "isOverridable": false
+}

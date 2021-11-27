@@ -1,0 +1,197 @@
+{
+  "id": "1d5a7cfd-050d-4e67-96fc-94eb339412d8",
+  "name": "FAQ_선박제원",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "지방청에서 발급하는 선박원부와, 포트미스상에 등록된 선박제원이 다를 경우 발생하는 오류입니다.\n포트미스 신고-선박운항-선박제원 신고 화면에서 선박제원을 선박원부와 동일하게 변경신고하면 됩니다.\n선박원부를 분실한 경우, 포트미스 선박제원 신고화면에서 선박원부정보 조회 버튼을 이용해 쉽게 조회할 수 있습니다."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "선박",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "제원",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 원부 오류났을 때 어떻게 하나요?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fdee6a5c-998e-49bb-953f-98aa5bc5e312",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "선박",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "제원",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 원부와 다른 오류 났을 때",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b24b2606-cb6f-4a0f-9898-c3711ea5a3e1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "입출항 신고하려고 하는데 ",
+          "userDefined": false
+        },
+        {
+          "text": "선박",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "제원",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "원",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "부랑",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 다르다는 오류가 나요",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "df8ac13d-81cd-41b1-ade7-cb5743df2f55",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "선박",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "제원",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 원부 오류",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bb07dd26-335d-4854-b587-60364a085fb3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "입출항 신고 오류",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f2463093-9921-4e7b-8237-f21631ab1fcf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "입출항 신고시 ",
+          "userDefined": false
+        },
+        {
+          "text": "선박",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "제원",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 원부와 다르다는 오류가 발생합니다",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "70c12e65-2db9-49e1-a990-9266e94dc00e",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

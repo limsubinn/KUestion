@@ -1,0 +1,203 @@
+{
+  "id": "06d85b80-ac6c-4a18-9560-50833038fd4b",
+  "name": "FAQ_불개항장",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "포트미스에서는 항만민원과 해운민원에서 각각 다른 아이디를 사용해야합니다.\n항만민원용 아이디로 해운민원 접속시 불개항장 신고메뉴만 보이므로, 해운민원용 아이디를 새로 만들어야합니다."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "불개항",
+          "userDefined": false
+        },
+        {
+          "text": "장만",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 있을 때 ",
+          "userDefined": false
+        },
+        {
+          "text": "해운",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "민원",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 신고",
+          "userDefined": false
+        },
+        {
+          "text": "하기",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "8861ab22-e236-4608-b305-16a599864f04",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "해운",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "민원",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 신고 하는 법",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d6a75605-1c56-47db-925d-d7f952abb4dd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "해운",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "민원",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 메뉴 ",
+          "userDefined": false
+        },
+        {
+          "text": "안보일",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 때",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1d592121-3d3c-49c7-a957-9c54079a97ad",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "해운",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "민원",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 메뉴 ",
+          "userDefined": false
+        },
+        {
+          "text": "선택",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "시 불개항",
+          "userDefined": false
+        },
+        {
+          "text": "장만",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 나오면 ",
+          "userDefined": false
+        },
+        {
+          "text": "해운",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "민원",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 신고를 어떻게 해야하나요?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "baf10f47-7741-423b-80df-813dd532377a",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

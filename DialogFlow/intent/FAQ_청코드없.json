@@ -1,0 +1,193 @@
+{
+  "id": "92d7074d-9119-43db-966b-e2995a652f9f",
+  "name": "FAQ_청코드없",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "무역항이나 국가관리 연안항이 아닌 항들은 포트미스에서 신고하지않고 해당 항이 소속된 지방자치단체로 연락하여 신고합니다."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "청코드 없는 ",
+          "userDefined": false
+        },
+        {
+          "text": "항구",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "는 어떻게 신고하나요",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "49111cb9-517f-49db-a0eb-651c9ad86b3a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "청코드 조회 안될 때",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "05ea4bd4-0271-4eaa-91da-066be480353b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "청코드 없는 ",
+          "userDefined": false
+        },
+        {
+          "text": "항구",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 입출항 신고하고 싶어요",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "18beac42-fbc6-4f74-8af3-e937f752f157",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "청코드 없는 ",
+          "userDefined": false
+        },
+        {
+          "text": "항구",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 입출항 신고하는 방법",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "93cc0411-3926-4ee2-8082-0522babde88e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "청코드 없는 ",
+          "userDefined": false
+        },
+        {
+          "text": "항구",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "b09bc555-1194-430c-8d5f-9cd2785119d4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "청코드 검색 안되는 ",
+          "userDefined": false
+        },
+        {
+          "text": "항구",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 신고",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "db97bfa7-0661-45dd-86a4-23ab526b57cf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "청코드 검색 안될 때",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0b2ece8f-d222-4d08-a88d-6303c30aa0b5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "청코드 검색에 조회되지않는 ",
+          "userDefined": false
+        },
+        {
+          "text": "항구의",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 입출항 신고는 어떻게 해야하나요?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5b3b7044-4913-46a4-a363-f5394ab7aed9",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,53 @@
+{
+  "id": "95ccfd93-8405-4d81-9be6-484cf11ba12f",
+  "name": "welcome",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "actions_intent_SIGN_IN"
+    },
+    {
+      "name": "actions_intent_CONFIRMATION"
+    },
+    {
+      "name": "actions_intent_START_STORY"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "안녕하세요 챗봇 서비스 포미입니다."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

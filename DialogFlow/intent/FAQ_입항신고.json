@@ -1,0 +1,361 @@
+{
+  "id": "1423abd7-982f-43bd-b01e-7bea39cec200",
+  "name": "FAQ_입항신고",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "입항신고 및 화물신고의 양하는 화물을 외부에서 싣고와서 당항에 하역하는 작업을 가리키며, 적하는 당항에서 적재해서 타항으로 싣고 나가는 작업을 가리킵니다.\n위험물신고상의 해상반입은 입항신고와 화물신고의 양하와 동일하며, 육상반입은 적하와 동일합니다."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "해상",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": ", ",
+          "userDefined": false
+        },
+        {
+          "text": "육상",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "반입 ",
+          "userDefined": false
+        },
+        {
+          "text": "구분",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 안됨",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b9152d6b-690f-498d-b91b-ad6f8334062e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "해상",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "반입과 ",
+          "userDefined": false
+        },
+        {
+          "text": "육상",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "반입 ",
+          "userDefined": false
+        },
+        {
+          "text": "구분",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 안됐을 때",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "74a3708f-5a3b-4fb0-a51f-ac3d80a2bdea",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "양하랑",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 적하 ",
+          "userDefined": false
+        },
+        {
+          "text": "구분",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 안 됐을 때",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f8a522cf-d25e-4b2d-88cb-20eaeed89e8c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "입항 신고를 하려는데 위험물신고",
+          "userDefined": false
+        },
+        {
+          "text": "상의",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "해상",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": ", ",
+          "userDefined": false
+        },
+        {
+          "text": "육상",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 반입 ",
+          "userDefined": false
+        },
+        {
+          "text": "구분",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 안됨",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f84480c2-a0f8-4f6c-ae56-9c4ea75467ef",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "입항 신고를 하려는데 ",
+          "userDefined": false
+        },
+        {
+          "text": "양하",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 적하 ",
+          "userDefined": false
+        },
+        {
+          "text": "구분",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 안됨",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0e027bb7-4635-4f01-955d-4b2d791e0bd6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "입항신고",
+          "userDefined": false
+        },
+        {
+          "text": "시 양하",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "와적하 ",
+          "userDefined": false
+        },
+        {
+          "text": "구분이",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 되지않습니다",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c72dda96-d41d-45ce-9cc9-cf066d65f778",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "입항신고",
+          "userDefined": false
+        },
+        {
+          "text": "시 양하",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "/적하와 위험물신고",
+          "userDefined": false
+        },
+        {
+          "text": "상의",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "해상",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "반입/",
+          "userDefined": false
+        },
+        {
+          "text": "육상",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "반입에 대해 ",
+          "userDefined": false
+        },
+        {
+          "text": "구분이",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " 되지않습니다",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b4d259a3-bc06-4e90-a5f1-08eec1ed4923",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "입항신고 할건데 ",
+          "userDefined": false
+        },
+        {
+          "text": "해상",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "반입이랑 ",
+          "userDefined": false
+        },
+        {
+          "text": "육상",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "반입 ",
+          "userDefined": false
+        },
+        {
+          "text": "구분",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "256ef290-bbc4-4566-a61b-a1214a726abb",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
