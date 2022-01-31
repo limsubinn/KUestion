@@ -21,13 +21,17 @@
 <br/>
 ![그림1](https://user-images.githubusercontent.com/66028419/151821314-30a3fb66-9906-4afb-901b-4c994f01ea83.png)
 <br/>
+<br/>
 
 ### 💡 작품 기능
 - 챗봇을 통해 PORT-MIS의 일부 기능을 이용할 수 있다.
     1. 선박 관련 현황 조회
     2. 코드 조회
     3. FAQ
+![pomi2](https://user-images.githubusercontent.com/66028419/151826097-f62f9c02-b5db-4e8b-8e36-952cce42de1c.png)
 - 사용자에게 더 자세한 정보를 제공할 수 있도록 애플리케이션 자체에서 PORT-MIS 및 유사기관으로의 웹사이트 연결과 해운항만 지원센터로의 전화 연결 서비스를 제공한다.
+![pomi3](https://user-images.githubusercontent.com/66028419/151826115-121f0b40-1768-4362-9fd5-0c2cd80f64ba.png)
+![pomi4](https://user-images.githubusercontent.com/66028419/151826132-f52369da-24f4-4c36-a3b9-c0451bfb15f2.png)
 - 기존의 웹페이지에서 복잡하게 조회해야 했던 해운항만 현황 정보를 더욱 쉽게 찾아 볼 수 있다.
 <br/>
 
@@ -38,3 +42,24 @@
 
 ### 💡 개발 환경
 ![그림2](https://user-images.githubusercontent.com/66028419/151822458-cd27884f-305c-45bf-aa41-50cc8e9bacf0.png)
+<br/>
+<br/>
+
+### 🔗 유튜브 링크
+https://www.youtube.com/watch?v=J_cuNzLokGk
+<br/>
+<br/>
+
+### 🗒 프로젝트 기간
+2021.04 ~ 2021.10
+<br/>
+<br/>
+
+### 👩‍👩‍👧‍👧 역할 분담
+| 이름 | 역할 |
+| --- | --- |
+| **김현경** | 챗봇 데이터 분석, 수집 및 전처리 / 챗봇 개발 / 챗봇 데이터 관리 / DB 디자인 설계 |
+| **이하영** | UI 설계, 어플(안드로이드스튜디오) 개발 / 회원 데이터 관리 / 어플 <-> DB 연동 |
+| **임수빈** | UI 설계, 어플(안드로이드스튜디오) 개발 / 회원 데이터 관리 / 어플 <-> 챗봇 연동 |
+| **정민경** | 챗봇 데이터 분석, 수집 및 전처리 / 챗봇 개발 / 챗봇 데이터 관리 / DB 디자인 설계 |
+
